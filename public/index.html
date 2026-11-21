@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>India Mutual Funds &amp; Index Funds Explorer</title>
+  <meta name="description" content="Complete screener for all Indian Direct Mutual Funds and Index Funds with live NAV history charts, AUM, Expense Ratio, CAGR, and Exit Load." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+            <polyline points="16 7 22 7 22 13"></polyline>
+          </svg>
+        </div>
+        <div>
+          <h1 class="brand-title">India MF &amp; Index Explorer</h1>
+          <p class="brand-subtitle">All Direct Growth Schemes &middot; Groww + AMFI Verified</p>
+        </div>
+      </div>
+
+      <div class="topbar-meta">
+        <div class="stat-chip">
+          <span class="stat-label">Total Funds</span>
+          <span class="stat-value mono" id="totalFundsCount">--</span>
+        </div>
+        <div class="stat-chip">
+          <span class="stat-label">Categories</span>
+          <span class="stat-value mono" id="totalTabsCount">14</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs-shell" aria-label="Fund Categories">
+    <div class="tabs-scroll" id="tabsContainer" role="tablist"></div>
+  </nav>
+
+  <main class="container">
+    <section class="toolbar" aria-label="Table Controls">
+      <div class="toolbar-left">
+        <div class="tab-heading-wrap">
+          <h2 class="active-tab-title" id="activeTabTitle">Loading...</h2>
+          <span class="fund-count-badge mono" id="activeTabCount">0 funds</span>
+        </div>
+        <div class="freshness-row">
+          <span class="freshness-dot" id="freshnessDot"></span>
+          <span class="freshness-text" id="lastRefreshedText">Last refreshed: --</span>
+          <span class="freshness-hint">&middot; Expand any fund for live NAV &amp; chart</span>
+        </div>
+      </div>
+
+      <div class="toolbar-right">
+        <div class="search-box">
+          <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="search" id="searchInput" placeholder="Search fund, AMC, or sub-category..." autocomplete="off" />
+        </div>
+
+        <div class="sort-group">
+          <label for="sortSelect" class="sort-label">Sort by</label>
+          <select id="sortSelect" class="sort-select" aria-label="Sort funds by column">
+            <option value="aum_cr">AUM (&#8377; Cr)</option>
+            <option value="cagr_1y">1Y CAGR (%)</option>
+            <option value="cagr_3y">3Y CAGR (%)</option>
+            <option value="cagr_5y">5Y CAGR (%)</option>
+            <option value="expense_ratio">Expense Ratio (%)</option>
+            <option value="nav">Latest NAV (&#8377;)</option>
+            <option value="scheme_name">Fund Name (A–Z)</option>
+          </select>
+          <button type="button" id="sortDirBtn" class="btn-icon" title="Toggle ascending / descending" aria-label="Toggle sort direction">
+            <span id="sortDirLabel">Desc</span>
+            <svg id="sortDirIcon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <button type="button" id="refreshTabBtn" class="btn-primary">
+          <svg class="refresh-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 4 23 10 17 10"></polyline>
+            <polyline points="1 20 1 14 7 14"></polyline>
+            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+          </svg>
+          <span id="refreshBtnLabel">Refresh Tab</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="table-card">
+      <div class="table-wrap">
+        <table class="funds-table" id="fundsTable">
+          <thead>
+            <tr>
+              <th class="col-fund sortable" data-sort="scheme_name">
+                <span>Fund Name &amp; AMC</span>
+                <span class="th-arrow"></span>
+              </th>
+              <th class="col-num sortable" data-sort="aum_cr">
+                <span>AUM (&#8377; Cr)</span>
+                <span class="th-arrow"></span>
+              </th>
+              <th class="col-num sortable" data-sort="expense_ratio">
+                <span>Expense Ratio</span>
+                <span class="th-arrow"></span>
+              </th>
+              <th class="col-num sortable" data-sort="cagr_1y">
+                <span>1Y CAGR</span>
+                <span class="th-arrow"></span>
+              </th>
+              <th class="col-num sortable" data-sort="cagr_3y">
+                <span>3Y CAGR</span>
+                <span class="th-arrow"></span>
+              </th>
+              <th class="col-num sortable" data-sort="cagr_5y">
+                <span>5Y CAGR</span>
+                <span class="th-arrow"></span>
+              </th>
+              <th class="col-num sortable" data-sort="nav">
+                <span>NAV (&#8377;)</span>
+                <span class="th-arrow"></span>
+              </th>
+              <th class="col-exit">
+                <span>Exit Load</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody id="fundsTableBody">
+            <tr>
+              <td colspan="8" class="empty-state">Loading funds...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
