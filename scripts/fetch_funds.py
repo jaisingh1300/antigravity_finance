@@ -84,12 +84,13 @@ TAB_ORDER = [
     "Index - Sectoral & Thematic",
     "Index - Factor & Smart Beta",
     "Index - Debt & Target Maturity",
-    "Passive - Gold, Silver & Intl",
+    "Passive - Gold & Silver",
+    "US & International Funds",
 ]
 
 
 def classify_fund(s):
-    """Classify each fund into one of 14 distinct tabs covering all Active, Index, and Passive funds."""
+    """Classify each fund into one of 15 distinct tabs covering all Active, Index, Passive, and US/International funds."""
     name = (s.get("scheme_name") or s.get("fund_name") or "").lower()
     cat_l = (s.get("category") or "").strip().lower()
     sub_l = (s.get("sub_category") or "").strip().lower()
@@ -110,17 +111,17 @@ def classify_fund(s):
         and not re.search(r"\b(golden|goldman)\b", name)
         and (is_fof or "etf" in name or "gold" in sub_l or "silver" in sub_l)
     ):
-        return "Passive - Gold, Silver & Intl"
+        return "Passive - Gold & Silver"
 
-    # International / Global Passive & Feeder FoFs
+    # US & International Funds (US, Nasdaq, S&P 500, FANG+, Global, Overseas)
     if (
         re.search(
-            r"\b(us |u\.s\.|usa|nasdaq|s&p\s*500|global|international|world|europe|china|japan|asia|brazil|asean|taiwan|hang seng|nyse|fang|overseas|emerging market|developed world|msci|ftse)\b",
+            r"\b(us |u\.s\.|usa|nasdaq|s&p\s*500|nyse|fang|global|international|world|europe|china|japan|asia|brazil|asean|taiwan|hang seng|overseas|emerging market|developed world|msci|ftse)\b",
             name,
         )
         or "international" in sub_l
-    ) and (is_index_flag or is_index_name or is_fof or "international" in sub_l):
-        return "Passive - Gold, Silver & Intl"
+    ) and (is_index_flag or is_index_name or is_fof or "international" in sub_l or "global" in name or "us " in name or "nasdaq" in name):
+        return "US & International Funds"
 
     # Index & Passive ETF FoFs
     if is_index_flag or "index" in sub_l or is_index_name or is_etf_fof:
@@ -257,6 +258,88 @@ def match_kuvera_code(scheme_name, k_exact, k_tokens):
     return best_c if best_score >= 0.72 else ""
 
 
+def fetch_kuvera_us_international_funds(existing_kcodes, existing_norm_names):
+    """Fetch all Indian Direct Growth US / Nasdaq / S&P 500 / Global funds from Kuvera v4 + v5."""
+    try:
+        kl = fetch_json("https://api.kuvera.in/mf/api/v4/fund_schemes/list.json", timeout=25)
+    except Exception:
+        return []
+
+    candidates = []
+    for _cat, subs in kl.items():
+        if not isinstance(subs, dict):
+            continue
+        for sub, amcs in subs.items():
+            if not isinstance(amcs, dict):
+                continue
+            for _amc, schemes in amcs.items():
+                if not isinstance(schemes, list):
+                    continue
+                for sc in schemes:
+                    n = sc.get("n", "")
+                    nl = n.lower()
+                    c = sc.get("c", "")
+                    if not c or "direct" not in nl or "growth" not in nl:
+                        continue
+                    is_us_intl = "international" in sub.lower() or bool(
+                        re.search(
+                            r"\b(us |u\.s\.|usa|nasdaq|s&p\s*500|nyse|fang|global|international|overseas|world|europe|china|japan|asia|brazil|asean|taiwan|hang seng|msci|ftse|us equity|us bluechip|us tech|us opportunities|us treasury)\b",
+                            nl,
+                        )
+                    )
+                    if not is_us_intl:
+                        continue
+                    if c in existing_kcodes or norm_name(n) in existing_norm_names:
+                        continue
+                    candidates.append((c, n, sub, sc.get("r") or {}))
+
+    print(f"Fetching live details for {len(candidates)} additional US & International funds from Kuvera...")
+
+    def fetch_one(item):
+        c, n, sub, r_short = item
+        try:
+            arr = fetch_json(f"https://api.kuvera.in/mf/api/v5/fund_schemes/{c}.json", timeout=12)
+            k = arr[0] if isinstance(arr, list) and arr else (arr if isinstance(arr, dict) else {})
+        except Exception:
+            k = {}
+        rets = k.get("returns") or {}
+        nav_obj = k.get("nav") or {}
+        aum_val = k.get("aum")
+        aum_cr = round(float(aum_val) / 10.0, 2) if aum_val not in (None, "") else None
+        return {
+            "tab": "US & International Funds",
+            "scheme_code": "",
+            "kuvera_code": c,
+            "search_id": k.get("slug") or "",
+            "scheme_name": k.get("name") or n,
+            "fund_house": k.get("fund_house") or "",
+            "category": k.get("category") or "Equity",
+            "sub_category": k.get("fund_category") or sub or "International",
+            "is_index": "index" in n.lower() or "nasdaq" in n.lower() or "s&p" in n.lower(),
+            "plan_type": "Direct",
+            "aum_cr": aum_cr,
+            "expense_ratio": clean_float(k.get("expense_ratio")),
+            "cagr_1y": clean_float(rets.get("year_1") if rets.get("year_1") is not None else r_short.get("1")),
+            "cagr_3y": clean_float(rets.get("year_3") if rets.get("year_3") is not None else r_short.get("3")),
+            "cagr_5y": clean_float(rets.get("year_5") if rets.get("year_5") is not None else r_short.get("5")),
+            "nav": clean_float(nav_obj.get("nav")),
+            "exit_load": "Check scheme document (Overseas FoF / Index)",
+            "risk": "Very High",
+            "groww_rating": k.get("fund_rating"),
+            "min_sip": clean_float(k.get("sip_min")),
+            "min_lumpsum": clean_float(k.get("lump_min")),
+            "fund_manager": k.get("fund_manager") or "",
+            "logo_url": "",
+        }
+
+    added = []
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        for res in ex.map(fetch_one, candidates):
+            if res:
+                added.append(res)
+    return added
+
+
 def main():
     raw = fetch_all_groww_schemes()
     k_exact, k_tokens = fetch_kuvera_mapping()
@@ -269,6 +352,8 @@ def main():
     missing_stats = Counter()
     kuvera_matched = 0
     cleaned = []
+    existing_kcodes = set()
+    existing_norm_names = set()
 
     for s in raw:
         tab = classify_fund(s)
@@ -285,6 +370,8 @@ def main():
         kcode = match_kuvera_code(sname, k_exact, k_tokens)
         if kcode:
             kuvera_matched += 1
+            existing_kcodes.add(kcode)
+        existing_norm_names.add(norm_name(sname))
 
         if exp is None:
             missing_stats["expense_ratio"] += 1
@@ -323,6 +410,13 @@ def main():
             }
         )
 
+    # Add all US & International Direct Growth funds from Kuvera not already in Groww
+    us_added = fetch_kuvera_us_international_funds(existing_kcodes, existing_norm_names)
+    for item in us_added:
+        cleaned.append(item)
+        counts[item["tab"]] += 1
+        kuvera_matched += 1
+
     # Sort each tab by AUM descending by default
     cleaned.sort(key=lambda x: (x["tab"], -(x["aum_cr"] if x["aum_cr"] is not None else -1)))
 
@@ -338,8 +432,8 @@ def main():
 
     print(f"\nKuvera live CORS code matched: {kuvera_matched}/{len(cleaned)} ({kuvera_matched/len(cleaned)*100:.1f}%)")
     print("\n=== TAB BREAKDOWN ===")
-    for k, v in sorted(counts.items()):
-        print(f"  {k:35s}: {v}")
+    for k in TAB_ORDER:
+        print(f"  {k:35s}: {counts[k]}")
     print(f"  {'TOTAL':35s}: {len(cleaned)}")
     print("\nMissing stats:", dict(missing_stats))
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>India Mutual Funds &amp; Index Funds Explorer</title>
-  <meta name="description" content="Complete screener for all Indian Direct Mutual Funds and Index Funds with live NAV history charts, AUM, Expense Ratio, CAGR, and Exit Load." />
+  <title>India Markets Explorer — Mutual Funds, ETFs &amp; Equity</title>
+  <meta name="description" content="Complete screener for all Indian Direct Mutual Funds, Index Funds, US/International Funds, and NSE ETFs with live price/NAV charts, AUM, Expense Ratio, and CAGR." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -21,39 +21,50 @@
           </svg>
         </div>
         <div>
-          <h1 class="brand-title">India MF &amp; Index Explorer</h1>
-          <p class="brand-subtitle">All Direct Growth Schemes &middot; Groww + AMFI Verified</p>
+          <h1 class="brand-title">India Markets Explorer</h1>
+          <p class="brand-subtitle">Mutual Funds, Index Funds, US Funds &amp; NSE ETFs</p>
         </div>
       </div>
 
-      <div class="topbar-meta">
-        <div class="stat-chip">
-          <span class="stat-label">Total Funds</span>
-          <span class="stat-value mono" id="totalFundsCount">--</span>
+      <div class="topbar-controls">
+        <div class="asset-switcher">
+          <label for="assetClassSelect" class="asset-label">Market</label>
+          <select id="assetClassSelect" class="asset-select" aria-label="Select asset class">
+            <option value="funds">Mutual Funds &amp; Index Funds</option>
+            <option value="etf">ETFs (NSE Listed)</option>
+            <option value="equity">Equity (Coming Soon)</option>
+          </select>
         </div>
-        <div class="stat-chip">
-          <span class="stat-label">Categories</span>
-          <span class="stat-value mono" id="totalTabsCount">14</span>
+
+        <div class="topbar-meta">
+          <div class="stat-chip">
+            <span class="stat-label" id="totalItemsLabel">Total Funds</span>
+            <span class="stat-value mono" id="totalFundsCount">--</span>
+          </div>
+          <div class="stat-chip">
+            <span class="stat-label">Tabs</span>
+            <span class="stat-value mono" id="totalTabsCount">--</span>
+          </div>
         </div>
       </div>
     </div>
   </header>
 
-  <nav class="tabs-shell" aria-label="Fund Categories">
+  <nav class="tabs-shell" id="tabsShell" aria-label="Category Tabs">
     <div class="tabs-scroll" id="tabsContainer" role="tablist"></div>
   </nav>
 
   <main class="container">
-    <section class="toolbar" aria-label="Table Controls">
+    <section class="toolbar" id="toolbarSection" aria-label="Table Controls">
       <div class="toolbar-left">
         <div class="tab-heading-wrap">
           <h2 class="active-tab-title" id="activeTabTitle">Loading...</h2>
-          <span class="fund-count-badge mono" id="activeTabCount">0 funds</span>
+          <span class="fund-count-badge mono" id="activeTabCount">0 items</span>
         </div>
         <div class="freshness-row">
           <span class="freshness-dot" id="freshnessDot"></span>
           <span class="freshness-text" id="lastRefreshedText">Last refreshed: --</span>
-          <span class="freshness-hint">&middot; Expand any fund for live NAV &amp; chart</span>
+          <span class="freshness-hint" id="freshnessHint">&middot; Expand any row for live chart &amp; details</span>
         </div>
       </div>
 
@@ -68,15 +79,7 @@
 
         <div class="sort-group">
           <label for="sortSelect" class="sort-label">Sort by</label>
-          <select id="sortSelect" class="sort-select" aria-label="Sort funds by column">
-            <option value="aum_cr">AUM (&#8377; Cr)</option>
-            <option value="cagr_1y">1Y CAGR (%)</option>
-            <option value="cagr_3y">3Y CAGR (%)</option>
-            <option value="cagr_5y">5Y CAGR (%)</option>
-            <option value="expense_ratio">Expense Ratio (%)</option>
-            <option value="nav">Latest NAV (&#8377;)</option>
-            <option value="scheme_name">Fund Name (A–Z)</option>
-          </select>
+          <select id="sortSelect" class="sort-select" aria-label="Sort by column"></select>
           <button type="button" id="sortDirBtn" class="btn-icon" title="Toggle ascending / descending" aria-label="Toggle sort direction">
             <span id="sortDirLabel">Desc</span>
             <svg id="sortDirIcon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -97,51 +100,29 @@
       </div>
     </section>
 
-    <section class="table-card">
+    <section class="table-card" id="tableCard">
       <div class="table-wrap">
         <table class="funds-table" id="fundsTable">
-          <thead>
-            <tr>
-              <th class="col-fund sortable" data-sort="scheme_name">
-                <span>Fund Name &amp; AMC</span>
-                <span class="th-arrow"></span>
-              </th>
-              <th class="col-num sortable" data-sort="aum_cr">
-                <span>AUM (&#8377; Cr)</span>
-                <span class="th-arrow"></span>
-              </th>
-              <th class="col-num sortable" data-sort="expense_ratio">
-                <span>Expense Ratio</span>
-                <span class="th-arrow"></span>
-              </th>
-              <th class="col-num sortable" data-sort="cagr_1y">
-                <span>1Y CAGR</span>
-                <span class="th-arrow"></span>
-              </th>
-              <th class="col-num sortable" data-sort="cagr_3y">
-                <span>3Y CAGR</span>
-                <span class="th-arrow"></span>
-              </th>
-              <th class="col-num sortable" data-sort="cagr_5y">
-                <span>5Y CAGR</span>
-                <span class="th-arrow"></span>
-              </th>
-              <th class="col-num sortable" data-sort="nav">
-                <span>NAV (&#8377;)</span>
-                <span class="th-arrow"></span>
-              </th>
-              <th class="col-exit">
-                <span>Exit Load</span>
-              </th>
-            </tr>
-          </thead>
+          <thead id="fundsTableHead"></thead>
           <tbody id="fundsTableBody">
             <tr>
-              <td colspan="8" class="empty-state">Loading funds...</td>
+              <td colspan="8" class="empty-state">Loading data...</td>
             </tr>
           </tbody>
         </table>
       </div>
+    </section>
+
+    <section class="equity-empty-card" id="equityEmptyCard" style="display: none;">
+      <div class="equity-empty-icon" aria-hidden="true">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+          <path d="M3 9h18"></path>
+          <path d="M9 21V9"></path>
+        </svg>
+      </div>
+      <h2>Equity Screener — Coming Soon</h2>
+      <p>Individual Indian &amp; global equities will be added here next. Use the <strong>Market</strong> dropdown above to explore all <strong>Mutual Funds &amp; Index Funds</strong> (including US &amp; International funds) or <strong>NSE ETFs</strong> (Gold, Silver, Nifty, Sectoral, Debt &amp; International).</p>
     </section>
   </main>
 
