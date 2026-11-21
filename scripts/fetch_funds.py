@@ -190,8 +190,76 @@ def clean_float(v):
         return None
 
 
+def norm_name(s):
+    s = (s or "").lower()
+    s = re.sub(r"\b(direct|plan|growth|fund|mutual|option|scheme|regular|idcw|dividend|the|and)\b", " ", s)
+    s = s.replace("&", " ")
+    for a, b in [
+        ("mid cap", "midcap"),
+        ("small cap", "smallcap"),
+        ("large cap", "largecap"),
+        ("flexi cap", "flexicap"),
+        ("multi cap", "multicap"),
+        ("micro cap", "microcap"),
+        ("nifty 50", "nifty50"),
+        ("next 50", "next50"),
+    ]:
+        s = s.replace(a, b)
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def fetch_kuvera_mapping():
+    """Fetch Kuvera Direct Growth scheme codes for CORS-enabled live browser lookups."""
+    try:
+        kl = fetch_json("https://api.kuvera.in/mf/api/v4/fund_schemes/list.json", timeout=25)
+    except Exception as e:
+        print(f"Warning: could not fetch Kuvera list: {e}")
+        return {}, []
+    k_exact = {}
+    k_tokens = []
+    for _cat, subs in kl.items():
+        if not isinstance(subs, dict):
+            continue
+        for _sub, amcs in subs.items():
+            if not isinstance(amcs, dict):
+                continue
+            for _amc, schemes in amcs.items():
+                if not isinstance(schemes, list):
+                    continue
+                for sc in schemes:
+                    n = sc.get("n", "")
+                    if "direct" in n.lower() and "growth" in n.lower():
+                        nk = norm_name(n)
+                        c = sc.get("c")
+                        if nk and c:
+                            k_exact[nk] = c
+                            k_tokens.append((set(nk.split()), c))
+    print(f"Loaded {len(k_exact)} Kuvera Direct Growth codes for live CORS mapping.")
+    return k_exact, k_tokens
+
+
+def match_kuvera_code(scheme_name, k_exact, k_tokens):
+    nf = norm_name(scheme_name)
+    if nf in k_exact:
+        return k_exact[nf]
+    ft = set(nf.split())
+    if not ft:
+        return ""
+    best_score = 0.0
+    best_c = ""
+    for kt, c in k_tokens:
+        if not kt:
+            continue
+        score = len(ft & kt) / len(ft | kt)
+        if score > best_score:
+            best_score = score
+            best_c = c
+    return best_c if best_score >= 0.72 else ""
+
+
 def main():
     raw = fetch_all_groww_schemes()
+    k_exact, k_tokens = fetch_kuvera_mapping()
 
     # Save raw snapshot
     with open(os.path.join(DATA_DIR, "groww_raw.json"), "w") as f:
@@ -199,6 +267,7 @@ def main():
 
     counts = Counter()
     missing_stats = Counter()
+    kuvera_matched = 0
     cleaned = []
 
     for s in raw:
@@ -212,6 +281,10 @@ def main():
         r3y = clean_float(s.get("return3y"))
         r5y = clean_float(s.get("return5y"))
         exit_load = (s.get("exit_load") or "").strip() or "Nil / Not Specified"
+        sname = s.get("scheme_name") or s.get("fund_name") or ""
+        kcode = match_kuvera_code(sname, k_exact, k_tokens)
+        if kcode:
+            kuvera_matched += 1
 
         if exp is None:
             missing_stats["expense_ratio"] += 1
@@ -226,8 +299,9 @@ def main():
             {
                 "tab": tab,
                 "scheme_code": str(s.get("scheme_code") or ""),
+                "kuvera_code": kcode,
                 "search_id": s.get("search_id") or "",
-                "scheme_name": s.get("scheme_name") or s.get("fund_name") or "",
+                "scheme_name": sname,
                 "fund_house": s.get("fund_house") or s.get("amc") or "",
                 "category": s.get("category") or "",
                 "sub_category": s.get("sub_category") or "",
@@ -262,6 +336,7 @@ def main():
     with open(os.path.join(DATA_DIR, "funds_master.json"), "w") as f:
         json.dump(output, f, indent=2)
 
+    print(f"\nKuvera live CORS code matched: {kuvera_matched}/{len(cleaned)} ({kuvera_matched/len(cleaned)*100:.1f}%)")
     print("\n=== TAB BREAKDOWN ===")
     for k, v in sorted(counts.items()):
         print(f"  {k:35s}: {v}")

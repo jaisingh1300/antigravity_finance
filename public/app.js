@@ -104,50 +104,28 @@
     return `${f.scheme_code || ""}|${f.search_id || f.scheme_name}`;
   }
 
-  // Parse MFAPI DD-MM-YYYY -> YYYY-MM-DD chronological array
-  function parseMfapiHistory(mfapiJson) {
-    const raw = (mfapiJson && mfapiJson.data) || [];
+  function parseKuveraNavHistory(rawNavs) {
+    if (!Array.isArray(rawNavs)) return [];
     const parsed = [];
-    for (const pt of raw) {
-      if (!pt.date || !pt.nav) continue;
-      const parts = pt.date.split("-");
-      if (parts.length !== 3) continue;
-      const iso = `${parts[2]}-${parts[1]}-${parts[0]}`;
-      const nav = parseFloat(pt.nav);
-      if (!Number.isNaN(nav) && nav > 0) {
-        parsed.push({ date: iso, nav: Math.round(nav * 10000) / 10000 });
-      }
+    for (const pair of rawNavs) {
+      if (!Array.isArray(pair) || pair.length < 2) continue;
+      const ts = Number(pair[0]);
+      const nav = Number(pair[1]);
+      if (Number.isNaN(ts) || Number.isNaN(nav) || nav <= 0) continue;
+      const d = new Date(ts * 1000);
+      const iso = d.toISOString().slice(0, 10);
+      parsed.push({ date: iso, nav: Math.round(nav * 10000) / 10000 });
     }
-    parsed.reverse(); // oldest -> newest
+    parsed.sort((a, b) => a.date.localeCompare(b.date));
     return parsed;
   }
 
-  function computeCagrFromHistory(history, years) {
-    if (!history || history.length < 2) return null;
-    const latest = history[history.length - 1];
-    const latestMs = new Date(latest.date).getTime();
-    const targetMs = latestMs - years * 365.25 * 86400000;
-    // Find closest point at or before targetMs
-    let match = null;
-    for (let i = history.length - 2; i >= 0; i--) {
-      const ms = new Date(history[i].date).getTime();
-      if (ms <= targetMs) {
-        match = history[i];
-        break;
-      }
-    }
-    if (!match || match.nav <= 0) return null;
-    const actualYears = (latestMs - new Date(match.date).getTime()) / (365.25 * 86400000);
-    if (actualYears < years * 0.85) return null;
-    const cagr = (Math.pow(latest.nav / match.nav, 1 / actualYears) - 1) * 100;
-    return Math.round(cagr * 100) / 100;
-  }
-
-  async function fetchLiveFromMfapi(fund) {
-    if (!fund.scheme_code) {
+  async function fetchLiveFromKuvera(fund) {
+    const kcode = fund.kuvera_code;
+    if (!kcode) {
       return {
         fetched_at: new Date().toISOString(),
-        sources: ["Cached Snapshot"],
+        sources: ["Daily Snapshot"],
         live: {
           scheme_name: fund.scheme_name,
           fund_house: fund.fund_house,
@@ -168,44 +146,50 @@
       };
     }
 
-    const res = await fetch(`https://api.mfapi.in/mf/${encodeURIComponent(fund.scheme_code)}`, {
-      cache: "no-store",
-    });
-    if (!res.ok) throw new Error(`AMFI API returned ${res.status}`);
-    const m = await res.json();
-    const history = parseMfapiHistory(m);
+    const [schemeRes, navRes] = await Promise.all([
+      fetch(`https://api.kuvera.in/mf/api/v5/fund_schemes/${encodeURIComponent(kcode)}.json`, { cache: "no-store" }),
+      fetch(`https://api.kuvera.in/mf/api/v5/fund_navs/${encodeURIComponent(kcode)}.json`, { cache: "no-store" }),
+    ]);
 
-    const latest = history.length >= 1 ? history[history.length - 1] : null;
-    const prev = history.length >= 2 ? history[history.length - 2] : null;
+    if (!schemeRes.ok) throw new Error(`Kuvera API returned ${schemeRes.status}`);
+    const schemeArr = await schemeRes.json();
+    const k = Array.isArray(schemeArr) ? schemeArr[0] || {} : schemeArr || {};
+    const navRaw = navRes.ok ? await navRes.json() : [];
+    const history = parseKuveraNavHistory(navRaw);
+
+    const navObj = k.nav || {};
+    const lastNavObj = k.last_nav || {};
+    const liveNav = navObj.nav != null ? Number(navObj.nav) : (history.length ? history[history.length - 1].nav : fund.nav);
+    const prevNav = lastNavObj.nav != null ? Number(lastNavObj.nav) : (history.length >= 2 ? history[history.length - 2].nav : null);
     const change1d =
-      latest && prev && prev.nav > 0
-        ? Math.round(((latest.nav - prev.nav) / prev.nav) * 10000) / 100
+      liveNav && prevNav && prevNav > 0
+        ? Math.round(((liveNav - prevNav) / prevNav) * 10000) / 100
         : null;
 
-    const cagr1y = computeCagrFromHistory(history, 1);
-    const cagr3y = computeCagrFromHistory(history, 3);
-    const cagr5y = computeCagrFromHistory(history, 5);
+    const rets = k.returns || {};
+    const liveAumCr = k.aum != null ? Math.round((Number(k.aum) / 10) * 100) / 100 : fund.aum_cr;
+    const liveEr = k.expense_ratio != null ? Number(k.expense_ratio) : fund.expense_ratio;
 
     return {
       fetched_at: new Date().toISOString(),
-      sources: ["AMFI / MFAPI Live"],
+      sources: ["Kuvera Live (CORS)"],
       live: {
-        scheme_name: (m.meta && m.meta.scheme_name) || fund.scheme_name,
-        fund_house: (m.meta && m.meta.fund_house) || fund.fund_house,
-        category: (m.meta && m.meta.scheme_category) || fund.category,
-        nav: latest ? latest.nav : fund.nav,
-        nav_date: latest ? latest.date : "",
+        scheme_name: k.name || fund.scheme_name,
+        fund_house: k.fund_house || fund.fund_house,
+        category: k.fund_category || k.category || fund.category,
+        nav: liveNav,
+        nav_date: navObj.date || (history.length ? history[history.length - 1].date : ""),
         change_1d_pct: change1d,
-        aum_cr: fund.aum_cr,
-        expense_ratio: fund.expense_ratio,
-        exit_load: fund.exit_load,
-        cagr_1y: cagr1y !== null ? cagr1y : fund.cagr_1y,
-        cagr_3y: cagr3y !== null ? cagr3y : fund.cagr_3y,
-        cagr_5y: cagr5y !== null ? cagr5y : fund.cagr_5y,
+        aum_cr: liveAumCr,
+        expense_ratio: liveEr,
+        exit_load: fund.exit_load || "Nil",
+        cagr_1y: rets.year_1 != null ? Math.round(Number(rets.year_1) * 100) / 100 : fund.cagr_1y,
+        cagr_3y: rets.year_3 != null ? Math.round(Number(rets.year_3) * 100) / 100 : fund.cagr_3y,
+        cagr_5y: rets.year_5 != null ? Math.round(Number(rets.year_5) * 100) / 100 : fund.cagr_5y,
         risk: fund.risk,
-        fund_manager: fund.fund_manager,
-        min_sip: fund.min_sip,
-        min_lumpsum: fund.min_lumpsum,
+        fund_manager: k.fund_manager || fund.fund_manager,
+        min_sip: k.sip_min != null ? Number(k.sip_min) : fund.min_sip,
+        min_lumpsum: k.lump_min != null ? Number(k.lump_min) : fund.min_lumpsum,
         stamp_duty: "0.005%",
         groww_url: fund.search_id ? `https://groww.in/mutual-funds/${fund.search_id}` : "",
         top_holdings: [],
@@ -389,41 +373,38 @@
         state.funds = data.funds || [];
         state.lastRefreshed = data.last_refreshed;
       } else {
-        // Static / GitHub Pages mode: reload latest master JSON + live-refresh NAVs & CAGRs from AMFI for this tab
-        await loadStaticMaster();
+        // Static / GitHub Pages mode: fetch Kuvera CORS-enabled master list to update live 1Y/3Y/5Y CAGR across the entire tab!
+        try {
+          await loadStaticMaster();
+        } catch {
+          // Embedded mode fallback
+        }
         const items = state.fundsByTab[state.activeTab] || [];
-        const visibleToRefresh = items.slice(0, 60); // Refresh up to top 60 funds live from AMFI in fast parallel batches
-        let done = 0;
-        const batchSize = 10;
-        for (let i = 0; i < visibleToRefresh.length; i += batchSize) {
-          const batch = visibleToRefresh.slice(i, i + batchSize);
-          await Promise.all(
-            batch.map(async (f) => {
-              if (!f.scheme_code) return;
-              try {
-                const r = await fetch(`https://api.mfapi.in/mf/${encodeURIComponent(f.scheme_code)}`, {
-                  cache: "no-store",
-                });
-                if (!r.ok) return;
-                const m = await r.json();
-                const hist = parseMfapiHistory(m);
-                if (hist.length > 0) {
-                  f.nav = Math.round(hist[hist.length - 1].nav * 100) / 100;
-                  const c1 = computeCagrFromHistory(hist, 1);
-                  const c3 = computeCagrFromHistory(hist, 3);
-                  const c5 = computeCagrFromHistory(hist, 5);
-                  if (c1 !== null) f.cagr_1y = c1;
-                  if (c3 !== null) f.cagr_3y = c3;
-                  if (c5 !== null) f.cagr_5y = c5;
+        els.refreshBtnLabel.textContent = "Fetching live...";
+        const kRes = await fetch("https://api.kuvera.in/mf/api/v4/fund_schemes/list.json", { cache: "no-store" });
+        if (kRes.ok) {
+          const kl = await kRes.json();
+          const byCode = {};
+          for (const subs of Object.values(kl || {})) {
+            if (!subs || typeof subs !== "object") continue;
+            for (const amcs of Object.values(subs)) {
+              if (!amcs || typeof amcs !== "object") continue;
+              for (const schemes of Object.values(amcs)) {
+                if (!Array.isArray(schemes)) continue;
+                for (const sc of schemes) {
+                  if (sc && sc.c && sc.r) byCode[sc.c] = sc.r;
                 }
-              } catch {
-                // Keep snapshot value on individual network error
-              } finally {
-                done++;
-                els.refreshBtnLabel.textContent = `Live ${done}/${visibleToRefresh.length}`;
               }
-            })
-          );
+            }
+          }
+          for (const f of items) {
+            const r = f.kuvera_code && byCode[f.kuvera_code];
+            if (r) {
+              if (r["1"] != null) f.cagr_1y = Math.round(Number(r["1"]) * 100) / 100;
+              if (r["3"] != null) f.cagr_3y = Math.round(Number(r["3"]) * 100) / 100;
+              if (r["5"] != null) f.cagr_5y = Math.round(Number(r["5"]) * 100) / 100;
+            }
+          }
         }
         const nowIso = new Date().toISOString();
         state.fundsByTab[state.activeTab] = items;
@@ -568,7 +549,7 @@
         data = await res.json();
         if (!res.ok) throw new Error(data.error || "Failed to fetch live details");
       } else {
-        data = await fetchLiveFromMfapi(fund);
+        data = await fetchLiveFromKuvera(fund);
       }
 
       if (state.expandedKey !== expectedKey) return;
