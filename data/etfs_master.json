@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-24T03:53:47.011489+00:00",
-  "nav_date": "22-Nov-2026",
+  "fetched_at": "2026-11-25T02:00:44.209484+00:00",
+  "nav_date": "",
   "total_etfs": 361,
   "tab_counts": {
     "ETF - Silver": 20,
@@ -18,7 +18,7 @@
       "symbol": "BANKBEES",
       "name": "Nifty Bank",
       "ltp": 653.9,
-      "nav": 669.87,
+      "nav": null,
       "change_1d_pct": -2.31,
       "change_30d_pct": 15.85,
       "cagr_1y": 5.4,
@@ -28,14 +28,14 @@
       "traded_val_cr": 126.34,
       "week_52_high": 676.64,
       "week_52_low": 515.98,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PSUBNKBEES",
       "name": "Nifty PSU Bank",
       "ltp": 107.09,
-      "nav": 110.28,
+      "nav": null,
       "change_1d_pct": -2.89,
       "change_30d_pct": 18.16,
       "cagr_1y": 12.24,
@@ -45,14 +45,14 @@
       "traded_val_cr": 61.33,
       "week_52_high": 112.25,
       "week_52_low": 86.7,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ITBEES",
       "name": "Nifty IT TRI",
       "ltp": 35.54,
-      "nav": 34.91,
+      "nav": null,
       "change_1d_pct": 2.01,
       "change_30d_pct": -0.39,
       "cagr_1y": -13.57,
@@ -62,14 +62,14 @@
       "traded_val_cr": 59.55,
       "week_52_high": 44.27,
       "week_52_low": 28.55,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "CPSEETF",
       "name": "CPSE ETF",
       "ltp": 90.0,
-      "nav": 91.7,
+      "nav": null,
       "change_1d_pct": -1.52,
       "change_30d_pct": 5.64,
       "cagr_1y": -1.68,
@@ -79,14 +79,14 @@
       "traded_val_cr": 35.11,
       "week_52_high": 112.0,
       "week_52_low": 84.1,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PVTBANIETF",
       "name": "Nifty Private Bank Index",
       "ltp": 31.54,
-      "nav": 32.04,
+      "nav": null,
       "change_1d_pct": -2.17,
       "change_30d_pct": 15.56,
       "cagr_1y": 7.18,
@@ -96,14 +96,14 @@
       "traded_val_cr": 25.63,
       "week_52_high": 33.25,
       "week_52_low": 24.18,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "FMCGIETF",
       "name": "Nifty FMCG Index",
       "ltp": 51.9,
-      "nav": 52.29,
+      "nav": null,
       "change_1d_pct": -0.48,
       "change_30d_pct": 13.54,
       "cagr_1y": -12.73,
@@ -113,14 +113,14 @@
       "traded_val_cr": 20.3,
       "week_52_high": 59.65,
       "week_52_low": 44.72,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PHARMABEES",
       "name": "Nifty Pharma TRI",
       "ltp": 29.08,
-      "nav": 29.19,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 12.21,
       "cagr_1y": 23.56,
@@ -130,14 +130,14 @@
       "traded_val_cr": 15.26,
       "week_52_high": 30.46,
       "week_52_low": 21.69,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "METALIETF",
       "name": "Nifty Metal Index",
       "ltp": 11.95,
-      "nav": 12.37,
+      "nav": null,
       "change_1d_pct": -3.16,
       "change_30d_pct": 3.03,
       "cagr_1y": 15.21,
@@ -147,14 +147,14 @@
       "traded_val_cr": 14.59,
       "week_52_high": 14.17,
       "week_52_low": 10.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "LIQUIDETF",
       "name": "Nifty1D rate index",
       "ltp": 999.99,
-      "nav": 1000.0,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 0.0,
       "cagr_1y": -0.0,
@@ -164,14 +164,14 @@
       "traded_val_cr": 14.53,
       "week_52_high": 1025.0,
       "week_52_low": 995.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BFSI",
       "name": "Nifty Financial Services Index",
       "ltp": 29.27,
-      "nav": 30.06,
+      "nav": null,
       "change_1d_pct": -2.6,
       "change_30d_pct": 15.75,
       "cagr_1y": 1.6,
@@ -181,14 +181,14 @@
       "traded_val_cr": 13.13,
       "week_52_high": 30.64,
       "week_52_low": 24.03,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ABSLBANETF",
       "name": "Nifty Bank",
       "ltp": 64.07,
-      "nav": 66.34,
+      "nav": null,
       "change_1d_pct": -3.42,
       "change_30d_pct": 15.76,
       "cagr_1y": 5.42,
@@ -198,14 +198,14 @@
       "traded_val_cr": 12.24,
       "week_52_high": 68.99,
       "week_52_low": 50.97,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOREALTY",
       "name": "Motilal Oswal Nifty Realty ETF",
       "ltp": 94.18,
-      "nav": 94.27,
+      "nav": null,
       "change_1d_pct": -0.07,
       "change_30d_pct": 20.16,
       "cagr_1y": 4.35,
@@ -215,14 +215,14 @@
       "traded_val_cr": 10.45,
       "week_52_high": 97.0,
       "week_52_low": 64.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MODEFENCE",
       "name": "Nifty India Defence Total Return Index",
       "ltp": 97.1,
-      "nav": 98.32,
+      "nav": null,
       "change_1d_pct": -0.97,
       "change_30d_pct": 3.95,
       "cagr_1y": 10.69,
@@ -232,14 +232,14 @@
       "traded_val_cr": 8.09,
       "week_52_high": 112.0,
       "week_52_low": 77.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BANKBETA",
       "name": "Nifty Bank",
       "ltp": 64.87,
-      "nav": 66.93,
+      "nav": null,
       "change_1d_pct": -2.87,
       "change_30d_pct": 15.48,
       "cagr_1y": 7.04,
@@ -249,14 +249,14 @@
       "traded_val_cr": 8.02,
       "week_52_high": 73.7,
       "week_52_low": 51.3,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ICICIB22",
       "name": "S&P BSE BHARAT 22 index",
       "ltp": 115.5,
-      "nav": 119.14,
+      "nav": null,
       "change_1d_pct": -2.62,
       "change_30d_pct": 10.5,
       "cagr_1y": 0.03,
@@ -266,14 +266,14 @@
       "traded_val_cr": 7.3,
       "week_52_high": 131.0,
       "week_52_low": 104.35,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "SBIBANKNIF",
       "name": "Nifty Bank",
       "ltp": 646.94,
-      "nav": 664.55,
+      "nav": null,
       "change_1d_pct": -2.49,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -283,14 +283,14 @@
       "traded_val_cr": 7.24,
       "week_52_high": 669.02,
       "week_52_low": 512.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BANKIETF",
       "name": "Nifty Bank",
       "ltp": 64.69,
-      "nav": 66.44,
+      "nav": null,
       "change_1d_pct": -2.56,
       "change_30d_pct": 15.66,
       "cagr_1y": 5.46,
@@ -300,14 +300,14 @@
       "traded_val_cr": 7.02,
       "week_52_high": 67.45,
       "week_52_low": 51.17,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "AUTOBEES",
       "name": "Nifty Auto TRI",
       "ltp": 294.9,
-      "nav": 297.92,
+      "nav": null,
       "change_1d_pct": -0.94,
       "change_30d_pct": 14.91,
       "cagr_1y": 3.18,
@@ -317,14 +317,14 @@
       "traded_val_cr": 6.68,
       "week_52_high": 310.45,
       "week_52_low": 242.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PSUBANKADD",
       "name": "DSP Nifty PSU Bank ETF",
       "ltp": 96.5,
-      "nav": 99.92,
+      "nav": null,
       "change_1d_pct": -3.27,
       "change_30d_pct": 18.7,
       "cagr_1y": 12.84,
@@ -334,14 +334,14 @@
       "traded_val_cr": 5.41,
       "week_52_high": 101.39,
       "week_52_low": 78.9,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "METAL",
       "name": "Nifty Metal Total Return Index",
       "ltp": 11.96,
-      "nav": 12.42,
+      "nav": null,
       "change_1d_pct": -3.47,
       "change_30d_pct": 3.11,
       "cagr_1y": 15.6,
@@ -351,31 +351,31 @@
       "traded_val_cr": 5.18,
       "week_52_high": 14.18,
       "week_52_low": 10.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOCAPITAL",
       "name": "Nifty Capital Market Total Return Index",
       "ltp": 57.99,
-      "nav": 58.15,
+      "nav": null,
       "change_1d_pct": -0.17,
       "change_30d_pct": 17.05,
-      "cagr_1y": 21.68,
+      "cagr_1y": 23.03,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 876323,
       "traded_val_cr": 5.05,
       "week_52_high": 60.9,
       "week_52_low": 42.17,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BANKNIFTY1",
       "name": "Nifty Bank",
       "ltp": 64.9,
-      "nav": 67.16,
+      "nav": null,
       "change_1d_pct": -3.57,
       "change_30d_pct": 15.63,
       "cagr_1y": -89.51,
@@ -385,14 +385,14 @@
       "traded_val_cr": 4.75,
       "week_52_high": 68.98,
       "week_52_low": 51.71,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BANKETF",
       "name": "Mirae Asset Nifty Bank ETF",
       "ltp": 640.0,
-      "nav": 659.36,
+      "nav": null,
       "change_1d_pct": -2.95,
       "change_30d_pct": 15.7,
       "cagr_1y": 5.36,
@@ -402,14 +402,14 @@
       "traded_val_cr": 4.3,
       "week_52_high": 675.94,
       "week_52_low": 507.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "CONSUMBEES",
       "name": "Nifty India Consumption TRI",
       "ltp": 136.28,
-      "nav": 137.64,
+      "nav": null,
       "change_1d_pct": -0.84,
       "change_30d_pct": 14.9,
       "cagr_1y": -1.04,
@@ -419,14 +419,14 @@
       "traded_val_cr": 4.16,
       "week_52_high": 140.28,
       "week_52_low": 114.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PSUBNKIETF",
       "name": "ICICI Prudential Nifty PSU Bank ETF",
       "ltp": 96.91,
-      "nav": 100.17,
+      "nav": null,
       "change_1d_pct": -2.92,
       "change_30d_pct": 18.73,
       "cagr_1y": 12.48,
@@ -436,14 +436,14 @@
       "traded_val_cr": 3.02,
       "week_52_high": 104.0,
       "week_52_low": 79.35,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PSUBANK",
       "name": "Nifty PSU Bank",
       "ltp": 95.1,
-      "nav": 98.84,
+      "nav": null,
       "change_1d_pct": -3.42,
       "change_30d_pct": 18.53,
       "cagr_1y": -88.78,
@@ -453,14 +453,14 @@
       "traded_val_cr": 3.01,
       "week_52_high": 101.0,
       "week_52_low": 78.32,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "INFRABEES",
       "name": "Nifty Infra",
       "ltp": 983.15,
-      "nav": 1002.46,
+      "nav": null,
       "change_1d_pct": -1.52,
       "change_30d_pct": 11.66,
       "cagr_1y": -0.93,
@@ -470,14 +470,14 @@
       "traded_val_cr": 2.94,
       "week_52_high": 1018.3,
       "week_52_low": 871.35,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HDFCNIFBAN",
       "name": "Nifty Bank",
       "ltp": 64.3,
-      "nav": 66.61,
+      "nav": null,
       "change_1d_pct": -3.28,
       "change_30d_pct": 15.58,
       "cagr_1y": 5.24,
@@ -487,14 +487,14 @@
       "traded_val_cr": 2.75,
       "week_52_high": 68.14,
       "week_52_low": 51.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ITIETF",
       "name": "Nifty IT Index",
       "ltp": 35.55,
-      "nav": 34.95,
+      "nav": null,
       "change_1d_pct": 1.77,
       "change_30d_pct": 0.06,
       "cagr_1y": -13.43,
@@ -504,14 +504,14 @@
       "traded_val_cr": 2.7,
       "week_52_high": 44.3,
       "week_52_low": 28.54,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "AUTOIETF",
       "name": "Nifty Auto Index",
       "ltp": 29.51,
-      "nav": 29.85,
+      "nav": null,
       "change_1d_pct": -0.74,
       "change_30d_pct": 14.88,
       "cagr_1y": 3.33,
@@ -521,14 +521,14 @@
       "traded_val_cr": 2.62,
       "week_52_high": 31.46,
       "week_52_low": 24.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWRAIL",
       "name": "Nifty India Railways PSU Index",
       "ltp": 26.03,
-      "nav": 26.44,
+      "nav": null,
       "change_1d_pct": -1.77,
       "change_30d_pct": 5.94,
       "cagr_1y": -23.59,
@@ -538,14 +538,14 @@
       "traded_val_cr": 2.39,
       "week_52_high": 36.75,
       "week_52_low": 24.36,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "TNIDETF",
       "name": "Nifty India Digital Index",
       "ltp": 89.47,
-      "nav": 89.72,
+      "nav": null,
       "change_1d_pct": -0.3,
       "change_30d_pct": 3.67,
       "cagr_1y": -8.33,
@@ -555,31 +555,31 @@
       "traded_val_cr": 2.27,
       "week_52_high": 103.26,
       "week_52_low": 74.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "NIFTYCASE",
       "name": "Nifty Index 50 Index",
       "ltp": 10.23,
-      "nav": 10.38,
+      "nav": null,
       "change_1d_pct": -1.16,
       "change_30d_pct": 12.33,
-      "cagr_1y": -1.54,
+      "cagr_1y": -1.64,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 2138302,
       "traded_val_cr": 2.2,
       "week_52_high": 11.61,
       "week_52_low": 8.84,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ITETF",
       "name": "Mirae Asset Nifty IT ETF",
       "ltp": 33.84,
-      "nav": 33.33,
+      "nav": null,
       "change_1d_pct": 1.71,
       "change_30d_pct": -0.06,
       "cagr_1y": -13.33,
@@ -589,14 +589,14 @@
       "traded_val_cr": 2.19,
       "week_52_high": 42.02,
       "week_52_low": 27.22,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HEALTHIETF",
       "name": "Nifty Healthcare Index",
       "ltp": 180.06,
-      "nav": 179.38,
+      "nav": null,
       "change_1d_pct": 0.4,
       "change_30d_pct": 14.41,
       "cagr_1y": 17.14,
@@ -606,14 +606,14 @@
       "traded_val_cr": 2.19,
       "week_52_high": 185.75,
       "week_52_low": 138.65,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWHOSPI",
       "name": "BSE Hospitals Index",
       "ltp": 52.92,
-      "nav": 52.61,
+      "nav": null,
       "change_1d_pct": 0.13,
       "change_30d_pct": 21.16,
       "cagr_1y": 0.0,
@@ -623,14 +623,14 @@
       "traded_val_cr": 2.14,
       "week_52_high": 62.0,
       "week_52_low": 42.9,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWPOWER",
       "name": "BSE Power Index - TRI",
       "ltp": 10.6,
-      "nav": 10.86,
+      "nav": null,
       "change_1d_pct": -2.39,
       "change_30d_pct": 7.16,
       "cagr_1y": 16.21,
@@ -640,14 +640,14 @@
       "traded_val_cr": 2.07,
       "week_52_high": 13.2,
       "week_52_low": 7.75,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "IT",
       "name": "NIFTY IT Index",
       "ltp": 35.77,
-      "nav": 34.93,
+      "nav": null,
       "change_1d_pct": 2.76,
       "change_30d_pct": -0.08,
       "cagr_1y": -13.34,
@@ -657,14 +657,14 @@
       "traded_val_cr": 1.83,
       "week_52_high": 44.49,
       "week_52_low": 28.54,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "FINIETF",
       "name": "ICICI Prudential Nifty Financial Services Ex-Bank ETF",
       "ltp": 32.92,
-      "nav": 33.05,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 13.4,
       "cagr_1y": -0.34,
@@ -674,14 +674,14 @@
       "traded_val_cr": 1.75,
       "week_52_high": 34.56,
       "week_52_low": 27.4,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BANKPSU",
       "name": "Nifty PSU Bank Total Return Index",
       "ltp": 96.42,
-      "nav": 99.65,
+      "nav": null,
       "change_1d_pct": -3.37,
       "change_30d_pct": 18.61,
       "cagr_1y": 12.51,
@@ -691,14 +691,14 @@
       "traded_val_cr": 1.66,
       "week_52_high": 100.62,
       "week_52_low": 73.15,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HDFCPVTBAN",
       "name": "HDFC NIFTY Private Bank ETF",
       "ltp": 31.4,
-      "nav": 32.32,
+      "nav": null,
       "change_1d_pct": -2.91,
       "change_30d_pct": 15.57,
       "cagr_1y": 7.18,
@@ -708,14 +708,14 @@
       "traded_val_cr": 1.51,
       "week_52_high": 32.83,
       "week_52_low": 24.31,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWDEFNC",
       "name": "Nifty India Defence Index- Total Return Index",
       "ltp": 88.68,
-      "nav": 89.44,
+      "nav": null,
       "change_1d_pct": -0.97,
       "change_30d_pct": 4.79,
       "cagr_1y": 10.52,
@@ -725,14 +725,14 @@
       "traded_val_cr": 1.46,
       "week_52_high": 102.07,
       "week_52_low": 71.78,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HDFCNIFIT",
       "name": "HDFC NIFTY IT ETF",
       "ltp": 34.38,
-      "nav": 33.58,
+      "nav": null,
       "change_1d_pct": 2.35,
       "change_30d_pct": 0.0,
       "cagr_1y": -13.44,
@@ -742,14 +742,14 @@
       "traded_val_cr": 1.26,
       "week_52_high": 42.3,
       "week_52_low": 27.32,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWEV",
       "name": "Nifty EV and New Age Automotive Index",
       "ltp": 32.28,
-      "nav": 32.56,
+      "nav": null,
       "change_1d_pct": -0.43,
       "change_30d_pct": 12.9,
       "cagr_1y": 3.09,
@@ -759,14 +759,14 @@
       "traded_val_cr": 1.2,
       "week_52_high": 34.64,
       "week_52_low": 26.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWRLTY",
       "name": "Index",
       "ltp": 10.5,
-      "nav": 10.52,
+      "nav": null,
       "change_1d_pct": -0.28,
       "change_30d_pct": 19.95,
       "cagr_1y": 5.28,
@@ -776,14 +776,14 @@
       "traded_val_cr": 1.19,
       "week_52_high": 10.84,
       "week_52_low": 7.17,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "SBIPSUBNK",
       "name": "BSE PSU Bank Index TRI",
       "ltp": 55.67,
-      "nav": 57.5,
+      "nav": null,
       "change_1d_pct": -2.88,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -793,14 +793,14 @@
       "traded_val_cr": 1.17,
       "week_52_high": 58.72,
       "week_52_low": 45.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOTOUR",
       "name": "Nifty India Tourism Total Return Index",
       "ltp": 83.45,
-      "nav": 84.45,
+      "nav": null,
       "change_1d_pct": -1.0,
       "change_30d_pct": 14.91,
       "cagr_1y": -6.96,
@@ -810,14 +810,14 @@
       "traded_val_cr": 1.16,
       "week_52_high": 90.43,
       "week_52_low": 64.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "OILIETF",
       "name": "Nifty Oil & Gas Index",
       "ltp": 11.5,
-      "nav": 11.73,
+      "nav": null,
       "change_1d_pct": -1.46,
       "change_30d_pct": 9.74,
       "cagr_1y": -5.75,
@@ -827,14 +827,14 @@
       "traded_val_cr": 1.04,
       "week_52_high": 14.0,
       "week_52_low": 9.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PVTBANKADD",
       "name": "DSP Nifty Private Bank ETF",
       "ltp": 31.15,
-      "nav": 32.21,
+      "nav": null,
       "change_1d_pct": -3.32,
       "change_30d_pct": 15.56,
       "cagr_1y": 7.23,
@@ -844,14 +844,14 @@
       "traded_val_cr": 1.03,
       "week_52_high": 32.44,
       "week_52_low": 24.02,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ENERGY",
       "name": "Nifty Energy",
       "ltp": 37.02,
-      "nav": 37.67,
+      "nav": null,
       "change_1d_pct": -1.41,
       "change_30d_pct": 6.67,
       "cagr_1y": 3.97,
@@ -861,14 +861,14 @@
       "traded_val_cr": 0.97,
       "week_52_high": 42.82,
       "week_52_low": 29.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MAKEINDIA",
       "name": "Nifty India Manufacturing Total Return Index",
       "ltp": 161.36,
-      "nav": 163.87,
+      "nav": null,
       "change_1d_pct": -1.38,
       "change_30d_pct": 10.03,
       "cagr_1y": 4.05,
@@ -878,14 +878,14 @@
       "traded_val_cr": 0.97,
       "week_52_high": 173.11,
       "week_52_low": 140.12,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HDFCGROWTH",
       "name": "HDFC NIFTY Growth Sectors 15 ETF",
       "ltp": 123.37,
-      "nav": 123.6,
+      "nav": null,
       "change_1d_pct": 0.25,
       "change_30d_pct": 7.88,
       "cagr_1y": -4.25,
@@ -895,14 +895,14 @@
       "traded_val_cr": 0.94,
       "week_52_high": 133.3,
       "week_52_low": 107.1,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "DEFENCE",
       "name": "BSE India Defence",
       "ltp": 76.01,
-      "nav": 76.87,
+      "nav": null,
       "change_1d_pct": -1.03,
       "change_30d_pct": 5.94,
       "cagr_1y": 0.0,
@@ -912,14 +912,14 @@
       "traded_val_cr": 0.94,
       "week_52_high": 85.6,
       "week_52_low": 58.91,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HDFCPSUBK",
       "name": "HDFC NIFTY PSU BANK ETF",
       "ltp": 96.09,
-      "nav": 99.95,
+      "nav": null,
       "change_1d_pct": -3.83,
       "change_30d_pct": 18.81,
       "cagr_1y": 12.19,
@@ -929,31 +929,31 @@
       "traded_val_cr": 0.93,
       "week_52_high": 102.41,
       "week_52_low": 77.6,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "CHEMICAL",
       "name": "Nifty Chemicals Index (TRI)",
       "ltp": 28.54,
-      "nav": 28.76,
+      "nav": null,
       "change_1d_pct": -0.45,
       "change_30d_pct": 8.04,
-      "cagr_1y": -1.96,
+      "cagr_1y": -0.59,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 294368,
       "traded_val_cr": 0.84,
       "week_52_high": 31.8,
       "week_52_low": 24.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ITADD",
       "name": "DSP Nifty IT ETF",
       "ltp": 34.18,
-      "nav": 33.38,
+      "nav": null,
       "change_1d_pct": 2.43,
       "change_30d_pct": 0.29,
       "cagr_1y": -12.76,
@@ -963,14 +963,14 @@
       "traded_val_cr": 0.84,
       "week_52_high": 41.92,
       "week_52_low": 27.17,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "INFRAIETF",
       "name": "ICICI Prudential Nifty Infrastructure ETF",
       "ltp": 98.05,
-      "nav": 99.8,
+      "nav": null,
       "change_1d_pct": -1.34,
       "change_30d_pct": 11.99,
       "cagr_1y": -1.18,
@@ -980,14 +980,14 @@
       "traded_val_cr": 0.82,
       "week_52_high": 101.0,
       "week_52_low": 86.76,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "POWERIETF",
       "name": "BSE Power Index",
       "ltp": 70.79,
-      "nav": 72.11,
+      "nav": null,
       "change_1d_pct": -2.1,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -997,14 +997,14 @@
       "traded_val_cr": 0.75,
       "week_52_high": 74.47,
       "week_52_low": 70.79,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWMETAL",
       "name": "Nifty Metal Index",
       "ltp": 11.35,
-      "nav": 11.74,
+      "nav": null,
       "change_1d_pct": -2.91,
       "change_30d_pct": 3.11,
       "cagr_1y": 10.69,
@@ -1014,14 +1014,14 @@
       "traded_val_cr": 0.71,
       "week_52_high": 13.45,
       "week_52_low": 10.03,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWCAPM",
       "name": "Nifty Capital Markets Index",
       "ltp": 12.19,
-      "nav": 12.22,
+      "nav": null,
       "change_1d_pct": 0.33,
       "change_30d_pct": 17.13,
       "cagr_1y": 23.97,
@@ -1031,14 +1031,14 @@
       "traded_val_cr": 0.67,
       "week_52_high": 13.06,
       "week_52_low": 8.02,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HEALTHY",
       "name": "Nifty Healthcare TRI",
       "ltp": 17.95,
-      "nav": 17.98,
+      "nav": null,
       "change_1d_pct": 0.17,
       "change_30d_pct": 14.17,
       "cagr_1y": 16.87,
@@ -1048,14 +1048,14 @@
       "traded_val_cr": 0.64,
       "week_52_high": 18.3,
       "week_52_low": 13.58,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "EVINDIA",
       "name": "Nifty EV and New Age Automotive Total Return Index",
       "ltp": 32.37,
-      "nav": 32.67,
+      "nav": null,
       "change_1d_pct": -0.68,
       "change_30d_pct": 13.35,
       "cagr_1y": 3.29,
@@ -1065,14 +1065,14 @@
       "traded_val_cr": 0.64,
       "week_52_high": 35.04,
       "week_52_low": 26.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BNKETFAXIS",
       "name": "Nifty Bank",
       "ltp": 647.4,
-      "nav": 667.07,
+      "nav": null,
       "change_1d_pct": -2.73,
       "change_30d_pct": 15.83,
       "cagr_1y": 5.42,
@@ -1082,14 +1082,14 @@
       "traded_val_cr": 0.62,
       "week_52_high": 668.91,
       "week_52_low": 512.51,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "COMMOIETF",
       "name": "ICICI Prudential Nifty Commodities ETF",
       "ltp": 96.56,
-      "nav": 98.69,
+      "nav": null,
       "change_1d_pct": -1.69,
       "change_30d_pct": 7.3,
       "cagr_1y": 2.67,
@@ -1099,14 +1099,14 @@
       "traded_val_cr": 0.58,
       "week_52_high": 110.56,
       "week_52_low": 88.67,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWNET",
       "name": "Index",
       "ltp": 10.52,
-      "nav": 10.47,
+      "nav": null,
       "change_1d_pct": 1.06,
       "change_30d_pct": 9.32,
       "cagr_1y": -2.28,
@@ -1116,14 +1116,14 @@
       "traded_val_cr": 0.55,
       "week_52_high": 11.57,
       "week_52_low": 7.93,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "AONETOTAL",
       "name": "Nifty Total Market Index",
       "ltp": 12.18,
-      "nav": 12.29,
+      "nav": null,
       "change_1d_pct": -0.65,
       "change_30d_pct": 11.01,
       "cagr_1y": 0.25,
@@ -1133,14 +1133,14 @@
       "traded_val_cr": 0.54,
       "week_52_high": 12.51,
       "week_52_low": 9.6,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "NIFTYJBLK",
       "name": "INDEX",
       "ltp": 13.08,
-      "nav": 13.24,
+      "nav": null,
       "change_1d_pct": -1.43,
       "change_30d_pct": 12.51,
       "cagr_1y": 0.0,
@@ -1150,14 +1150,14 @@
       "traded_val_cr": 0.47,
       "week_52_high": 14.03,
       "week_52_low": 9.94,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "SBIPVTBNK",
       "name": "Nifty Private Bank Index",
       "ltp": 314.03,
-      "nav": 323.97,
+      "nav": null,
       "change_1d_pct": -2.85,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -1167,14 +1167,14 @@
       "traded_val_cr": 0.47,
       "week_52_high": 330.0,
       "week_52_low": 244.18,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HDFCNIMEG",
       "name": "Nifty Metal Index TRI",
       "ltp": 118.87,
-      "nav": 122.83,
+      "nav": null,
       "change_1d_pct": -2.83,
       "change_30d_pct": 2.9,
       "cagr_1y": 0.0,
@@ -1184,14 +1184,14 @@
       "traded_val_cr": 0.46,
       "week_52_high": 152.55,
       "week_52_low": 113.86,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "INSUREIETF",
       "name": "BSE Insurance Index",
       "ltp": 15.39,
-      "nav": 15.38,
+      "nav": null,
       "change_1d_pct": -0.26,
       "change_30d_pct": 5.23,
       "cagr_1y": 0.0,
@@ -1201,14 +1201,14 @@
       "traded_val_cr": 0.41,
       "week_52_high": 16.46,
       "week_52_low": 13.81,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BANKADD",
       "name": "DSP Nifty Bank ETF",
       "ltp": 64.05,
-      "nav": 66.26,
+      "nav": null,
       "change_1d_pct": -3.31,
       "change_30d_pct": 15.88,
       "cagr_1y": 5.44,
@@ -1218,14 +1218,14 @@
       "traded_val_cr": 0.41,
       "week_52_high": 66.6,
       "week_52_low": 51.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOENERGY",
       "name": "Nifty Energy Index",
       "ltp": 36.8,
-      "nav": 37.58,
+      "nav": null,
       "change_1d_pct": -1.97,
       "change_30d_pct": 6.55,
       "cagr_1y": 4.2,
@@ -1235,14 +1235,14 @@
       "traded_val_cr": 0.35,
       "week_52_high": 43.0,
       "week_52_low": 33.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "SBIDEFETF",
       "name": "BSE India Defence",
       "ltp": 76.01,
-      "nav": 76.8,
+      "nav": null,
       "change_1d_pct": -0.68,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -1252,14 +1252,14 @@
       "traded_val_cr": 0.35,
       "week_52_high": 79.59,
       "week_52_low": 72.15,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWPSUBK",
       "name": "Nifty PSU Bank Index - TRI",
       "ltp": 95.19,
-      "nav": 99.01,
+      "nav": null,
       "change_1d_pct": -3.7,
       "change_30d_pct": 18.11,
       "cagr_1y": 0.0,
@@ -1269,31 +1269,31 @@
       "traded_val_cr": 0.3,
       "week_52_high": 100.18,
       "week_52_low": 77.57,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "EVIETF",
       "name": "Nifty EV & New Age Automotive ETF",
       "ltp": 32.36,
-      "nav": 32.61,
+      "nav": null,
       "change_1d_pct": -0.95,
       "change_30d_pct": 13.25,
-      "cagr_1y": 3.16,
+      "cagr_1y": 3.83,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 88333,
       "traded_val_cr": 0.29,
       "week_52_high": 36.0,
       "week_52_low": 26.28,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOHEALTH",
       "name": "Motilal Oswal S&P BSE Healthcare ETF",
       "ltp": 54.2,
-      "nav": 54.04,
+      "nav": null,
       "change_1d_pct": 0.04,
       "change_30d_pct": 12.83,
       "cagr_1y": 18.79,
@@ -1303,14 +1303,14 @@
       "traded_val_cr": 0.26,
       "week_52_high": 54.96,
       "week_52_low": 40.79,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HEALTHADD",
       "name": "DSP Nifty Healthcare ETF",
       "ltp": 17.53,
-      "nav": 17.64,
+      "nav": null,
       "change_1d_pct": -0.34,
       "change_30d_pct": 13.38,
       "cagr_1y": -88.44,
@@ -1320,14 +1320,14 @@
       "traded_val_cr": 0.26,
       "week_52_high": 18.2,
       "week_52_low": 13.54,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BANKBETF",
       "name": "Bajaj Finserv Nifty Bank ETF",
       "ltp": 64.34,
-      "nav": 65.8,
+      "nav": null,
       "change_1d_pct": -2.4,
       "change_30d_pct": 15.99,
       "cagr_1y": 5.7,
@@ -1337,14 +1337,14 @@
       "traded_val_cr": 0.24,
       "week_52_high": 67.6,
       "week_52_low": 50.71,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOSERVICE",
       "name": "Nifty Services Sector Total Return Index",
       "ltp": 32.97,
-      "nav": 33.22,
+      "nav": null,
       "change_1d_pct": 0.12,
       "change_30d_pct": 9.61,
       "cagr_1y": 0.93,
@@ -1354,14 +1354,14 @@
       "traded_val_cr": 0.21,
       "week_52_high": 35.37,
       "week_52_low": 28.3,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "INTERNET",
       "name": "Equity Index",
       "ltp": 14.1,
-      "nav": 14.14,
+      "nav": null,
       "change_1d_pct": -0.14,
       "change_30d_pct": 10.47,
       "cagr_1y": -1.89,
@@ -1371,14 +1371,14 @@
       "traded_val_cr": 0.2,
       "week_52_high": 15.8,
       "week_52_low": 10.72,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "CONSUMIETF",
       "name": "Nifty India Consumption Index",
       "ltp": 126.81,
-      "nav": 128.07,
+      "nav": null,
       "change_1d_pct": -0.56,
       "change_30d_pct": 14.51,
       "cagr_1y": -1.3,
@@ -1388,14 +1388,14 @@
       "traded_val_cr": 0.18,
       "week_52_high": 141.27,
       "week_52_low": 94.65,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "TECH",
       "name": "Nifty IT TRI Index",
       "ltp": 34.95,
-      "nav": 34.4,
+      "nav": null,
       "change_1d_pct": 1.98,
       "change_30d_pct": -0.06,
       "cagr_1y": -12.76,
@@ -1405,14 +1405,14 @@
       "traded_val_cr": 0.18,
       "week_52_high": 49.41,
       "week_52_low": 28.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "CEMNTGROWW",
       "name": "Nifty Cements Index TRI",
       "ltp": 14.68,
-      "nav": 14.85,
+      "nav": null,
       "change_1d_pct": -0.07,
       "change_30d_pct": 9.0,
       "cagr_1y": 0.0,
@@ -1422,14 +1422,14 @@
       "traded_val_cr": 0.18,
       "week_52_high": 16.27,
       "week_52_low": 13.13,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ITAXIS",
       "name": "NIFTY IT Index",
       "ltp": 351.12,
-      "nav": 346.35,
+      "nav": null,
       "change_1d_pct": 0.64,
       "change_30d_pct": -0.59,
       "cagr_1y": -13.74,
@@ -1439,14 +1439,14 @@
       "traded_val_cr": 0.18,
       "week_52_high": 439.67,
       "week_52_low": 230.7,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BBNPNBETF",
       "name": "Baroda BNP Paribas NIFTY Bank ETF",
       "ltp": 62.04,
-      "nav": 65.16,
+      "nav": null,
       "change_1d_pct": -3.78,
       "change_30d_pct": 15.12,
       "cagr_1y": 4.53,
@@ -1456,14 +1456,14 @@
       "traded_val_cr": 0.18,
       "week_52_high": 65.35,
       "week_52_low": 50.03,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ECAPINSURE",
       "name": "BSE Capital Markets & Insurance Total Return Index",
       "ltp": 24.42,
-      "nav": 24.7,
+      "nav": null,
       "change_1d_pct": -0.73,
       "change_30d_pct": 12.7,
       "cagr_1y": 1.61,
@@ -1473,14 +1473,14 @@
       "traded_val_cr": 0.17,
       "week_52_high": 25.88,
       "week_52_low": 20.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "CONSUMER",
       "name": "Nifty India New AgeConsumption",
       "ltp": 12.3,
-      "nav": 12.36,
+      "nav": null,
       "change_1d_pct": -0.24,
       "change_30d_pct": 14.77,
       "cagr_1y": 1.32,
@@ -1490,14 +1490,14 @@
       "traded_val_cr": 0.16,
       "week_52_high": 12.74,
       "week_52_low": 9.69,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "SBIIT",
       "name": "Nifty IT Index",
       "ltp": 356.74,
-      "nav": 348.42,
+      "nav": null,
       "change_1d_pct": 2.2,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -1507,14 +1507,14 @@
       "traded_val_cr": 0.16,
       "week_52_high": 439.27,
       "week_52_low": 285.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MSCIINDIA",
       "name": "MSCI India Index",
       "ltp": 30.59,
-      "nav": 31.2,
+      "nav": null,
       "change_1d_pct": -1.29,
       "change_30d_pct": 11.48,
       "cagr_1y": -1.58,
@@ -1524,14 +1524,14 @@
       "traded_val_cr": 0.14,
       "week_52_high": 32.01,
       "week_52_low": 26.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ABSLPSE",
       "name": "Aditya Birla Sun Life Nifty PSE ETF",
       "ltp": 9.83,
-      "nav": 9.99,
+      "nav": null,
       "change_1d_pct": -1.6,
       "change_30d_pct": 6.16,
       "cagr_1y": -2.39,
@@ -1541,14 +1541,14 @@
       "traded_val_cr": 0.12,
       "week_52_high": 11.6,
       "week_52_low": 9.15,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PVTBKGROWW",
       "name": "Nifty Private Bank Index - TRI",
       "ltp": 31.35,
-      "nav": 31.8,
+      "nav": null,
       "change_1d_pct": -1.79,
       "change_30d_pct": 16.69,
       "cagr_1y": 0.0,
@@ -1558,14 +1558,14 @@
       "traded_val_cr": 0.11,
       "week_52_high": 32.78,
       "week_52_low": 25.45,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "CONS",
       "name": "Kotak Nifty India Consumption ETF",
       "ltp": 12.6,
-      "nav": 12.72,
+      "nav": null,
       "change_1d_pct": -1.02,
       "change_30d_pct": 15.04,
       "cagr_1y": -90.18,
@@ -1575,31 +1575,31 @@
       "traded_val_cr": 0.1,
       "week_52_high": 12.93,
       "week_52_low": 10.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ELM250",
       "name": "Nifty LargeMidcap 250 TRI",
       "ltp": 16.78,
-      "nav": 16.96,
+      "nav": null,
       "change_1d_pct": -1.58,
       "change_30d_pct": 10.61,
-      "cagr_1y": 0.12,
+      "cagr_1y": 0.48,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 54678,
       "traded_val_cr": 0.09,
       "week_52_high": 18.5,
       "week_52_low": 14.43,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MNC",
       "name": "Kotak Nifty MNC ETF",
       "ltp": 31.7,
-      "nav": 31.86,
+      "nav": null,
       "change_1d_pct": -0.47,
       "change_30d_pct": 9.5,
       "cagr_1y": 1.39,
@@ -1609,14 +1609,14 @@
       "traded_val_cr": 0.09,
       "week_52_high": 35.65,
       "week_52_low": 27.83,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HFTSEINDIA",
       "name": "FTSE India Equity",
       "ltp": 33.21,
-      "nav": 33.73,
+      "nav": null,
       "change_1d_pct": -0.92,
       "change_30d_pct": 10.43,
       "cagr_1y": 0.0,
@@ -1626,14 +1626,14 @@
       "traded_val_cr": 0.08,
       "week_52_high": 34.2,
       "week_52_low": 29.72,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOPSE",
       "name": "Nifty PSE Total Return Index",
       "ltp": 95.7,
-      "nav": 97.61,
+      "nav": null,
       "change_1d_pct": -1.83,
       "change_30d_pct": 4.19,
       "cagr_1y": -3.0,
@@ -1643,14 +1643,14 @@
       "traded_val_cr": 0.08,
       "week_52_high": 114.7,
       "week_52_low": 89.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWCHEM",
       "name": "Nifty Chemicals Index - TRI",
       "ltp": 28.58,
-      "nav": 28.68,
+      "nav": null,
       "change_1d_pct": -0.63,
       "change_30d_pct": 6.72,
       "cagr_1y": -0.62,
@@ -1660,14 +1660,14 @@
       "traded_val_cr": 0.07,
       "week_52_high": 31.74,
       "week_52_low": 24.64,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "SECLEDBETA",
       "name": "BSE India Sector Leaders",
       "ltp": 15.29,
-      "nav": 15.43,
+      "nav": null,
       "change_1d_pct": -0.65,
       "change_30d_pct": 12.34,
       "cagr_1y": 0.0,
@@ -1677,14 +1677,14 @@
       "traded_val_cr": 0.07,
       "week_52_high": 15.85,
       "week_52_low": 13.51,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOMNC",
       "name": "Nifty MNC ETF Total Return Index",
       "ltp": 30.68,
-      "nav": 30.83,
+      "nav": null,
       "change_1d_pct": -0.84,
       "change_30d_pct": 9.53,
       "cagr_1y": 4.44,
@@ -1694,14 +1694,14 @@
       "traded_val_cr": 0.07,
       "week_52_high": 35.8,
       "week_52_low": 27.03,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOMETAL",
       "name": "Nifty Metal Index",
       "ltp": 12.49,
-      "nav": 12.29,
+      "nav": null,
       "change_1d_pct": 1.71,
       "change_30d_pct": 3.74,
       "cagr_1y": 0.0,
@@ -1711,31 +1711,31 @@
       "traded_val_cr": 0.07,
       "week_52_high": 14.55,
       "week_52_low": 11.4,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MANUFGBEES",
       "name": "Nifty India Manufacturing TRI",
       "ltp": 159.6,
-      "nav": 161.87,
+      "nav": null,
       "change_1d_pct": -0.96,
       "change_30d_pct": 9.71,
-      "cagr_1y": 4.82,
+      "cagr_1y": 5.83,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 4061,
       "traded_val_cr": 0.07,
       "week_52_high": 171.58,
       "week_52_low": 138.6,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "HEALTHAXIS",
       "name": "Nifty Healthcare Index",
       "ltp": 177.6,
-      "nav": 177.77,
+      "nav": null,
       "change_1d_pct": 0.21,
       "change_30d_pct": 14.37,
       "cagr_1y": 16.43,
@@ -1745,14 +1745,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 190.0,
       "week_52_low": 135.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ITBETA",
       "name": "UTI Nifty IT ETF",
       "ltp": 331.87,
-      "nav": 330.73,
+      "nav": null,
       "change_1d_pct": 2.65,
       "change_30d_pct": -0.75,
       "cagr_1y": -13.32,
@@ -1762,14 +1762,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 409.94,
       "week_52_low": 270.68,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ENERGYAXIS",
       "name": "Nifty Energy",
       "ltp": 18.6,
-      "nav": 18.72,
+      "nav": null,
       "change_1d_pct": 0.32,
       "change_30d_pct": 6.6,
       "cagr_1y": 0.0,
@@ -1779,14 +1779,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 19.99,
       "week_52_low": 16.86,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PHARMAIETF",
       "name": "Nifty Pharma",
       "ltp": 28.3,
-      "nav": 28.37,
+      "nav": null,
       "change_1d_pct": -0.67,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -1796,14 +1796,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 30.99,
       "week_52_low": 26.04,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "PVTBANK",
       "name": "Nifty Private Bank",
       "ltp": 30.93,
-      "nav": 31.75,
+      "nav": null,
       "change_1d_pct": -2.71,
       "change_30d_pct": 16.42,
       "cagr_1y": 0.0,
@@ -1813,14 +1813,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 32.9,
       "week_52_low": 26.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "SBICONS",
       "name": "Nifty India Consumption Index",
       "ltp": 126.6,
-      "nav": 127.55,
+      "nav": null,
       "change_1d_pct": -0.32,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -1830,14 +1830,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 131.43,
       "week_52_low": 100.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "BIRLATOTAL",
       "name": "BSE Total Market",
       "ltp": 10.9,
-      "nav": 11.07,
+      "nav": null,
       "change_1d_pct": -1.45,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -1847,14 +1847,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 11.5,
       "week_52_low": 9.83,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "NXT100CASE",
       "name": "Nifty Next 100",
       "ltp": 10.7,
-      "nav": 10.8,
+      "nav": null,
       "change_1d_pct": -0.65,
       "change_30d_pct": 9.87,
       "cagr_1y": 0.0,
@@ -1864,14 +1864,14 @@
       "traded_val_cr": 0.05,
       "week_52_high": 11.5,
       "week_52_low": 9.61,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "INFRA",
       "name": "Nifty India Infrastructure & Logistics",
       "ltp": 11.8,
-      "nav": 11.95,
+      "nav": null,
       "change_1d_pct": -1.17,
       "change_30d_pct": 9.28,
       "cagr_1y": 3.3,
@@ -1881,14 +1881,14 @@
       "traded_val_cr": 0.05,
       "week_52_high": 13.27,
       "week_52_low": 10.14,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "EMETAL",
       "name": "Nifty Metal Total Return Index",
       "ltp": 12.34,
-      "nav": 12.31,
+      "nav": null,
       "change_1d_pct": -0.32,
       "change_30d_pct": 3.47,
       "cagr_1y": 0.0,
@@ -1898,14 +1898,14 @@
       "traded_val_cr": 0.05,
       "week_52_high": 15.21,
       "week_52_low": 11.39,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "FMCGADD",
       "name": "Nifty FMCG Index (TRI)",
       "ltp": 48.47,
-      "nav": 48.85,
+      "nav": null,
       "change_1d_pct": -0.82,
       "change_30d_pct": 12.78,
       "cagr_1y": 0.0,
@@ -1915,14 +1915,14 @@
       "traded_val_cr": 0.04,
       "week_52_high": 51.09,
       "week_52_low": 42.31,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOINFRA",
       "name": "BSE India Infrastructure Total Return Index",
       "ltp": 58.02,
-      "nav": 58.8,
+      "nav": null,
       "change_1d_pct": -0.31,
       "change_30d_pct": 8.91,
       "cagr_1y": -4.02,
@@ -1932,14 +1932,14 @@
       "traded_val_cr": 0.04,
       "week_52_high": 66.0,
       "week_52_low": 52.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "NPBET",
       "name": "Nifty Private Bank Index",
       "ltp": 321.29,
-      "nav": 328.71,
+      "nav": null,
       "change_1d_pct": -2.02,
       "change_30d_pct": 16.53,
       "cagr_1y": 8.12,
@@ -1949,14 +1949,14 @@
       "traded_val_cr": 0.03,
       "week_52_high": 334.9,
       "week_52_low": 246.26,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWPSE",
       "name": "Nifty PSE Index - TRI",
       "ltp": 95.12,
-      "nav": 96.42,
+      "nav": null,
       "change_1d_pct": -1.83,
       "change_30d_pct": 6.35,
       "cagr_1y": -8.33,
@@ -1966,14 +1966,14 @@
       "traded_val_cr": 0.03,
       "week_52_high": 109.85,
       "week_52_low": 88.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "GROWWNXT50",
       "name": "Index",
       "ltp": 72.77,
-      "nav": 73.69,
+      "nav": null,
       "change_1d_pct": -1.14,
       "change_30d_pct": 8.71,
       "cagr_1y": 5.23,
@@ -1983,14 +1983,14 @@
       "traded_val_cr": 0.02,
       "week_52_high": 76.79,
       "week_52_low": 60.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOMGF",
       "name": "Nifty India Manufacturing Total Return Index",
       "ltp": 158.17,
-      "nav": 160.62,
+      "nav": null,
       "change_1d_pct": -1.13,
       "change_30d_pct": 9.32,
       "cagr_1y": 3.8,
@@ -2000,14 +2000,14 @@
       "traded_val_cr": 0.02,
       "week_52_high": 171.26,
       "week_52_low": 137.9,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "EBANKNIFTY",
       "name": "Edelweiss Nifty Bank ETF",
       "ltp": 63.36,
-      "nav": 65.23,
+      "nav": null,
       "change_1d_pct": -2.73,
       "change_30d_pct": 15.77,
       "cagr_1y": 5.6,
@@ -2017,14 +2017,14 @@
       "traded_val_cr": 0.02,
       "week_52_high": 69.39,
       "week_52_low": 50.05,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MOOILGAS",
       "name": "Nifty Oil & Gas ETF Total Return Index",
       "ltp": 11.4,
-      "nav": 11.56,
+      "nav": null,
       "change_1d_pct": -1.64,
       "change_30d_pct": 8.38,
       "cagr_1y": 0.0,
@@ -2034,14 +2034,14 @@
       "traded_val_cr": 0.02,
       "week_52_high": 12.15,
       "week_52_low": 10.07,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MSCI360",
       "name": "MSCI India Index",
       "ltp": 10.35,
-      "nav": 10.54,
+      "nav": null,
       "change_1d_pct": -1.43,
       "change_30d_pct": 10.26,
       "cagr_1y": 0.0,
@@ -2051,14 +2051,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 12.24,
       "week_52_low": 9.09,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "CONSUMAXIS",
       "name": "NIFTY India Consumption Index",
       "ltp": 126.7,
-      "nav": 127.18,
+      "nav": null,
       "change_1d_pct": -0.36,
       "change_30d_pct": 14.74,
       "cagr_1y": -1.53,
@@ -2068,14 +2068,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 128.98,
       "week_52_low": 105.02,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "INSURADD",
       "name": "BSE Insurance Index",
       "ltp": 15.24,
-      "nav": 15.35,
+      "nav": null,
       "change_1d_pct": -0.85,
       "change_30d_pct": 8.24,
       "cagr_1y": 0.0,
@@ -2085,14 +2085,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 16.07,
       "week_52_low": 13.73,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "MSCIADD",
       "name": "MSCI India Index",
       "ltp": 30.29,
-      "nav": 30.9,
+      "nav": null,
       "change_1d_pct": -1.56,
       "change_30d_pct": 12.0,
       "cagr_1y": 0.34,
@@ -2102,14 +2102,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 33.82,
       "week_52_low": 26.4,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "IVZBANKNF",
       "name": "Nifty Bank TRI",
       "ltp": 62.44,
-      "nav": 64.57,
+      "nav": null,
       "change_1d_pct": -3.21,
       "change_30d_pct": 15.24,
       "cagr_1y": 0.0,
@@ -2119,14 +2119,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 66.12,
       "week_52_low": 53.23,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Bank & Sectoral",
       "symbol": "ABSLMSCIN",
       "name": "MSCI India Index",
       "ltp": 30.3,
-      "nav": 30.86,
+      "nav": null,
       "change_1d_pct": -1.37,
       "change_30d_pct": 11.52,
       "cagr_1y": 0.0,
@@ -2136,14 +2136,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 35.34,
       "week_52_low": 26.34,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDBEES",
       "name": "Government Securities",
       "ltp": 1000.01,
-      "nav": 1000.0,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -2153,14 +2153,14 @@
       "traded_val_cr": 571.56,
       "week_52_high": 1025.0,
       "week_52_low": 969.99,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDCASE",
       "name": "Zerodha Nifty 1D Rate Liquid ETF",
       "ltp": 117.07,
-      "nav": 117.03,
+      "nav": null,
       "change_1d_pct": 0.04,
       "change_30d_pct": 0.44,
       "cagr_1y": 4.89,
@@ -2170,31 +2170,31 @@
       "traded_val_cr": 309.05,
       "week_52_high": 118.11,
       "week_52_low": 111.51,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUID1",
       "name": "Kotak Nifty 1D Rate Liquid ETF",
       "ltp": 1133.51,
-      "nav": 1133.18,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.43,
-      "cagr_1y": 5.04,
+      "cagr_1y": 4.93,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 1775051,
       "traded_val_cr": 201.21,
       "week_52_high": 1150.0,
       "week_52_low": 1075.15,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDADD",
       "name": "DSP S&P BSE Liquid Rate ETF",
       "ltp": 1155.99,
-      "nav": 1155.66,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.44,
       "cagr_1y": 4.87,
@@ -2204,14 +2204,14 @@
       "traded_val_cr": 138.35,
       "week_52_high": 1175.19,
       "week_52_low": 1101.42,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDBETF",
       "name": "Bajaj Finserv Nifty 1D Rate Liquid ETF - Growth",
       "ltp": 1109.34,
-      "nav": 1109.03,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.43,
       "cagr_1y": 4.79,
@@ -2221,31 +2221,31 @@
       "traded_val_cr": 117.84,
       "week_52_high": 1140.0,
       "week_52_low": 1009.94,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "CASHIETF",
       "name": "BSE Liquid Rate Index",
       "ltp": 1090.3,
-      "nav": 1089.97,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.44,
-      "cagr_1y": 5.04,
+      "cagr_1y": 5.02,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 921316,
       "traded_val_cr": 100.45,
       "week_52_high": 1109.85,
       "week_52_low": 1036.35,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDPLUS",
       "name": "Nifty 1D Rate Index",
       "ltp": 1114.27,
-      "nav": 1113.94,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.44,
       "cagr_1y": 4.95,
@@ -2255,14 +2255,14 @@
       "traded_val_cr": 82.4,
       "week_52_high": 1127.08,
       "week_52_low": 1060.88,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDIETF",
       "name": "S&P BSE Liquid Rate Index",
       "ltp": 1000.0,
-      "nav": 1000.0,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -2272,14 +2272,14 @@
       "traded_val_cr": 58.61,
       "week_52_high": 1041.19,
       "week_52_low": 955.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUID",
       "name": "Mirae Asset Nifty 1D Rate Liquid ETF",
       "ltp": 999.99,
-      "nav": 1000.0,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -2289,31 +2289,31 @@
       "traded_val_cr": 9.12,
       "week_52_high": 1024.98,
       "week_52_low": 974.99,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQGRWBEES",
       "name": "Liquid",
       "ltp": 1065.82,
-      "nav": 1065.48,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.44,
-      "cagr_1y": 4.79,
+      "cagr_1y": 4.77,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 77536,
       "traded_val_cr": 8.26,
       "week_52_high": 1065.82,
       "week_52_low": 995.55,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LTGILTBEES",
       "name": "NIFTY 8-13 yr G-Sec Index",
       "ltp": 29.78,
-      "nav": 29.83,
+      "nav": null,
       "change_1d_pct": -0.1,
       "change_30d_pct": 2.37,
       "cagr_1y": 1.71,
@@ -2323,14 +2323,14 @@
       "traded_val_cr": 7.48,
       "week_52_high": 30.61,
       "week_52_low": 27.85,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GROWWLIQID",
       "name": "Nifty 1D Rate Index",
       "ltp": 111.79,
-      "nav": 111.76,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.41,
       "cagr_1y": 4.65,
@@ -2340,14 +2340,14 @@
       "traded_val_cr": 5.33,
       "week_52_high": 112.71,
       "week_52_low": 105.79,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GILT5YBEES",
       "name": "Nifty 5 yr Benchmark G-Sec Index",
       "ltp": 66.07,
-      "nav": 66.16,
+      "nav": null,
       "change_1d_pct": -0.06,
       "change_30d_pct": 1.53,
       "cagr_1y": 3.62,
@@ -2357,14 +2357,14 @@
       "traded_val_cr": 3.89,
       "week_52_high": 69.0,
       "week_52_low": 62.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "AONELIQUID",
       "name": "Nifty 1D Rate Index",
       "ltp": 1087.45,
-      "nav": 1087.14,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.44,
       "cagr_1y": 4.93,
@@ -2374,14 +2374,14 @@
       "traded_val_cr": 3.36,
       "week_52_high": 1106.64,
       "week_52_low": 1007.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "EBBETF0430",
       "name": "Nifty BHARAT Bond",
       "ltp": 1612.5,
-      "nav": 1615.79,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 0.95,
       "cagr_1y": 2.95,
@@ -2391,7 +2391,7 @@
       "traded_val_cr": 3.1,
       "week_52_high": 1646.18,
       "week_52_low": 1499.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
@@ -2408,14 +2408,14 @@
       "traded_val_cr": 1.97,
       "week_52_high": 1092.83,
       "week_52_low": 1009.91,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "ELIQUID",
       "name": "Nifty 1D Rate Index (Debt Index)",
       "ltp": 1058.85,
-      "nav": 1058.54,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.5,
       "cagr_1y": 5.05,
@@ -2425,14 +2425,14 @@
       "traded_val_cr": 1.76,
       "week_52_high": 1059.45,
       "week_52_low": 1007.71,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "EBBETF0431",
       "name": "Nifty BHARAT Bond",
       "ltp": 1444.0,
-      "nav": 1438.73,
+      "nav": null,
       "change_1d_pct": 0.71,
       "change_30d_pct": 1.66,
       "cagr_1y": 3.12,
@@ -2442,48 +2442,48 @@
       "traded_val_cr": 1.62,
       "week_52_high": 1469.0,
       "week_52_low": 1372.83,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "SBILIQETF",
       "name": "Nifty 1D Rate Index",
       "ltp": 1066.39,
-      "nav": 1066.08,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.43,
-      "cagr_1y": 5.02,
+      "cagr_1y": 5.01,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 10350,
       "traded_val_cr": 1.1,
       "week_52_high": 1087.09,
       "week_52_low": 999.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LTGILTCASE",
       "name": "Nifty 8-13 Yr G-Sec Index",
       "ltp": 30.38,
-      "nav": 30.37,
+      "nav": null,
       "change_1d_pct": -0.26,
       "change_30d_pct": 2.53,
-      "cagr_1y": 2.36,
+      "cagr_1y": 2.39,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 281817,
       "traded_val_cr": 0.86,
       "week_52_high": 31.31,
       "week_52_low": 28.75,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDSBI",
       "name": "SBI NIFTY 1D Rate ETF",
       "ltp": 1000.0,
-      "nav": 1000.0,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -2493,14 +2493,14 @@
       "traded_val_cr": 0.64,
       "week_52_high": 1005.0,
       "week_52_low": 970.23,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDSHRI",
       "name": "SHRIRAM NIFTY 1D RATE LIQUID ETF",
       "ltp": 1132.07,
-      "nav": 1131.75,
+      "nav": null,
       "change_1d_pct": 0.03,
       "change_30d_pct": 0.42,
       "cagr_1y": 4.68,
@@ -2510,14 +2510,14 @@
       "traded_val_cr": 0.55,
       "week_52_high": 1132.08,
       "week_52_low": 1080.65,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GSEC10IETF",
       "name": "ICICI Prudential Nifty 10 yr Benchmark G-Sec ETF",
       "ltp": 262.15,
-      "nav": 263.22,
+      "nav": null,
       "change_1d_pct": 0.64,
       "change_30d_pct": 1.36,
       "cagr_1y": 0.84,
@@ -2527,14 +2527,14 @@
       "traded_val_cr": 0.5,
       "week_52_high": 269.59,
       "week_52_low": 252.23,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "EBBETF0433",
       "name": "BHARAT Bond ETF-April 2033",
       "ltp": 1302.29,
-      "nav": 1308.41,
+      "nav": null,
       "change_1d_pct": -0.24,
       "change_30d_pct": 1.3,
       "cagr_1y": 2.11,
@@ -2544,14 +2544,14 @@
       "traded_val_cr": 0.35,
       "week_52_high": 1350.32,
       "week_52_low": 1243.25,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GSEC10YEAR",
       "name": "Mirae Asset Nifty 8-13 yr G-Sec ETF",
       "ltp": 30.48,
-      "nav": 30.35,
+      "nav": null,
       "change_1d_pct": 1.46,
       "change_30d_pct": 1.95,
       "cagr_1y": 2.2,
@@ -2561,14 +2561,14 @@
       "traded_val_cr": 0.19,
       "week_52_high": 32.76,
       "week_52_low": 28.39,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "ABSLLIQUID",
       "name": "Aditya Birla Sun Life CRISIL Overnight Fund AI ETF",
       "ltp": 1000.0,
-      "nav": 1000.0,
+      "nav": null,
       "change_1d_pct": -0.0,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -2578,14 +2578,14 @@
       "traded_val_cr": 0.13,
       "week_52_high": 1044.99,
       "week_52_low": 975.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "BBETF0432",
       "name": "Nifty BHARAT Bond Index - April 2032",
       "ltp": 1341.34,
-      "nav": 1348.08,
+      "nav": null,
       "change_1d_pct": -0.09,
       "change_30d_pct": 1.53,
       "cagr_1y": 1.86,
@@ -2595,14 +2595,14 @@
       "traded_val_cr": 0.12,
       "week_52_high": 1378.0,
       "week_52_low": 1291.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LIQUIDBETA",
       "name": "Nifty 1D Rate Index",
       "ltp": 1018.13,
-      "nav": 1017.81,
+      "nav": null,
       "change_1d_pct": 0.08,
       "change_30d_pct": 0.44,
       "cagr_1y": 0.0,
@@ -2612,14 +2612,14 @@
       "traded_val_cr": 0.04,
       "week_52_high": 1022.44,
       "week_52_low": 981.86,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GSEC5IETF",
       "name": "Nifty 5 yr Benchmark G-Sec Index",
       "ltp": 66.61,
-      "nav": 66.29,
+      "nav": null,
       "change_1d_pct": 0.56,
       "change_30d_pct": 2.18,
       "cagr_1y": 4.12,
@@ -2629,14 +2629,14 @@
       "traded_val_cr": 0.04,
       "week_52_high": 69.14,
       "week_52_low": 63.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "LICNETFGSC",
       "name": "Nifty 8-13 Yr Gsec",
       "ltp": 29.28,
-      "nav": 29.35,
+      "nav": null,
       "change_1d_pct": 0.51,
       "change_30d_pct": 2.13,
       "cagr_1y": 1.46,
@@ -2646,14 +2646,14 @@
       "traded_val_cr": 0.03,
       "week_52_high": 30.53,
       "week_52_low": 27.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "HYBRIDETF",
       "name": "Nifty200 Momentum 30 Plus 8-13 yr G-Sec 50:50 Total Return Index",
       "ltp": 9.88,
-      "nav": 9.94,
+      "nav": null,
       "change_1d_pct": -0.1,
       "change_30d_pct": 5.56,
       "cagr_1y": 0.0,
@@ -2663,14 +2663,14 @@
       "traded_val_cr": 0.02,
       "week_52_high": 11.99,
       "week_52_low": 9.28,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "SBI10YGILT",
       "name": "Nifty 10 yr Benchmark G-Sec Index",
       "ltp": 262.76,
-      "nav": 263.63,
+      "nav": null,
       "change_1d_pct": 0.1,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -2680,14 +2680,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 272.31,
       "week_52_low": 250.95,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "MOGSEC",
       "name": "Nifty 5 yr Benchmark G-Sec Index",
       "ltp": 65.72,
-      "nav": 65.27,
+      "nav": null,
       "change_1d_pct": 0.52,
       "change_30d_pct": 2.69,
       "cagr_1y": 4.17,
@@ -2697,14 +2697,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 67.45,
       "week_52_low": 60.83,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "ABGSEC",
       "name": "Aditya Birla Sun Life CRISIL Broad Based Gilt ETF",
       "ltp": 114.34,
-      "nav": 114.0,
+      "nav": null,
       "change_1d_pct": 0.7,
       "change_30d_pct": 1.48,
       "cagr_1y": 2.47,
@@ -2714,14 +2714,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 118.0,
       "week_52_low": 109.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "FARBEES",
       "name": "CRISIL-IBX FAR Gilt",
       "ltp": 133.64,
-      "nav": 134.32,
+      "nav": null,
       "change_1d_pct": 0.48,
       "change_30d_pct": 2.27,
       "cagr_1y": 0.0,
@@ -2731,14 +2731,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 136.97,
       "week_52_low": 130.17,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GILT10BETA",
       "name": "UTI Nifty 10 yr Benchmark G-Sec ETF",
       "ltp": 26.21,
-      "nav": 26.48,
+      "nav": null,
       "change_1d_pct": 0.54,
       "change_30d_pct": 0.69,
       "cagr_1y": 0.69,
@@ -2748,14 +2748,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 27.6,
       "week_52_low": 25.1,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GILT5BETA",
       "name": "UTI Nifty 5 yr Benchmark G-Sec ETF",
       "ltp": 66.71,
-      "nav": 66.31,
+      "nav": null,
       "change_1d_pct": 1.51,
       "change_30d_pct": 1.28,
       "cagr_1y": 4.37,
@@ -2765,14 +2765,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 69.0,
       "week_52_low": 62.88,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GSEC10ADD",
       "name": "Nifty 10 yr Benchmark G-Sec",
       "ltp": 26.79,
-      "nav": 26.61,
+      "nav": null,
       "change_1d_pct": 0.68,
       "change_30d_pct": 2.33,
       "cagr_1y": 0.0,
@@ -2782,31 +2782,31 @@
       "traded_val_cr": 0.0,
       "week_52_high": 27.85,
       "week_52_low": 24.32,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Debt & Liquid",
       "symbol": "GSEC10ABSL",
       "name": "CRISIL 10 Year Gilt ETF",
       "ltp": 111.98,
-      "nav": 112.15,
+      "nav": null,
       "change_1d_pct": 0.0,
       "change_30d_pct": 1.86,
-      "cagr_1y": 1.36,
+      "cagr_1y": 1.55,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 0,
       "traded_val_cr": 0.0,
       "week_52_high": 119.99,
       "week_52_low": 108.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "ALPHA",
       "name": "NIFTY Alpha 50 Index",
       "ltp": 50.33,
-      "nav": 50.77,
+      "nav": null,
       "change_1d_pct": -0.91,
       "change_30d_pct": 5.97,
       "cagr_1y": 0.32,
@@ -2816,14 +2816,14 @@
       "traded_val_cr": 9.76,
       "week_52_high": 55.59,
       "week_52_low": 42.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "SMALLCAP",
       "name": "Mirae Asset Nifty Smallcap 250 Momentum Quality 100 ETF",
       "ltp": 47.81,
-      "nav": 48.15,
+      "nav": null,
       "change_1d_pct": -0.62,
       "change_30d_pct": 7.43,
       "cagr_1y": 6.79,
@@ -2833,14 +2833,14 @@
       "traded_val_cr": 7.31,
       "week_52_high": 50.37,
       "week_52_low": 37.34,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "LOWVOLIETF",
       "name": "Nifty 100 Low Volatility 30 Index",
       "ltp": 22.37,
-      "nav": 22.88,
+      "nav": null,
       "change_1d_pct": -1.71,
       "change_30d_pct": 7.94,
       "cagr_1y": -5.21,
@@ -2850,14 +2850,14 @@
       "traded_val_cr": 4.42,
       "week_52_high": 26.81,
       "week_52_low": 19.84,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOVALUE",
       "name": "Motilal Oswal S&P BSE Enhanced Value ETF",
       "ltp": 113.19,
-      "nav": 115.87,
+      "nav": null,
       "change_1d_pct": -2.36,
       "change_30d_pct": 9.4,
       "cagr_1y": -0.07,
@@ -2867,14 +2867,14 @@
       "traded_val_cr": 3.76,
       "week_52_high": 128.77,
       "week_52_low": 103.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "ABSL10BANK",
       "name": "BSE Top 10 Banks Index",
       "ltp": 187.0,
-      "nav": 193.33,
+      "nav": null,
       "change_1d_pct": -3.41,
       "change_30d_pct": 16.69,
       "cagr_1y": 0.0,
@@ -2884,14 +2884,14 @@
       "traded_val_cr": 2.21,
       "week_52_high": 214.42,
       "week_52_low": 150.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOMMIDCAP",
       "name": "BSE Midcap 150 Momentum 30 TRI",
       "ltp": 12.59,
-      "nav": 12.77,
+      "nav": null,
       "change_1d_pct": -1.41,
       "change_30d_pct": 9.1,
       "cagr_1y": 0.0,
@@ -2901,14 +2901,14 @@
       "traded_val_cr": 1.61,
       "week_52_high": 14.99,
       "week_52_low": 10.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOMENTUM50",
       "name": "Nifty 500 Momentum 50 Total Return Index",
       "ltp": 52.79,
-      "nav": 53.25,
+      "nav": null,
       "change_1d_pct": -0.51,
       "change_30d_pct": 9.08,
       "cagr_1y": -3.23,
@@ -2918,14 +2918,14 @@
       "traded_val_cr": 1.44,
       "week_52_high": 55.97,
       "week_52_low": 44.96,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "EQUAL50ADD",
       "name": "NIFTY 50 Equal Weight Index",
       "ltp": 352.0,
-      "nav": 355.99,
+      "nav": null,
       "change_1d_pct": -1.15,
       "change_30d_pct": 11.56,
       "cagr_1y": 2.04,
@@ -2935,14 +2935,14 @@
       "traded_val_cr": 1.42,
       "week_52_high": 361.0,
       "week_52_low": 304.78,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "TOP10ADD",
       "name": "Nifty Top 10 Equal Weight Index",
       "ltp": 95.59,
-      "nav": 97.77,
+      "nav": null,
       "change_1d_pct": -1.85,
       "change_30d_pct": 13.77,
       "cagr_1y": -5.68,
@@ -2952,14 +2952,14 @@
       "traded_val_cr": 1.37,
       "week_52_high": 103.04,
       "week_52_low": 81.53,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MIDSMALL",
       "name": "Mirae Asset Nifty MidSmallcap400 Momentum Quality 100 ETF",
       "ltp": 51.33,
-      "nav": 51.69,
+      "nav": null,
       "change_1d_pct": -0.52,
       "change_30d_pct": 9.31,
       "cagr_1y": 3.92,
@@ -2969,14 +2969,14 @@
       "traded_val_cr": 1.06,
       "week_52_high": 53.07,
       "week_52_low": 42.41,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOM30IETF",
       "name": "ICICI Prudential Nifty 200 Momentum 30 ETF",
       "ltp": 30.32,
-      "nav": 30.61,
+      "nav": null,
       "change_1d_pct": -0.66,
       "change_30d_pct": 9.01,
       "cagr_1y": -7.45,
@@ -2986,14 +2986,14 @@
       "traded_val_cr": 0.98,
       "week_52_high": 32.9,
       "week_52_low": 26.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "NV20IETF",
       "name": "Nifty50 Value 20",
       "ltp": 14.22,
-      "nav": 14.57,
+      "nav": null,
       "change_1d_pct": -2.0,
       "change_30d_pct": 10.19,
       "cagr_1y": -4.62,
@@ -3003,14 +3003,14 @@
       "traded_val_cr": 0.82,
       "week_52_high": 16.0,
       "week_52_low": 12.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "ALPHAETF",
       "name": "Mirae Asset Nifty 200 Alpha 30 ETF",
       "ltp": 26.2,
-      "nav": 26.47,
+      "nav": null,
       "change_1d_pct": -0.95,
       "change_30d_pct": 11.42,
       "cagr_1y": 0.85,
@@ -3020,14 +3020,14 @@
       "traded_val_cr": 0.79,
       "week_52_high": 27.61,
       "week_52_low": 21.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "SBIQUALITY",
       "name": "Nifty 200 Quality 30 Index",
       "ltp": 215.07,
-      "nav": 216.41,
+      "nav": null,
       "change_1d_pct": -0.29,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -3037,14 +3037,14 @@
       "traded_val_cr": 0.74,
       "week_52_high": 247.28,
       "week_52_low": 194.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "ALPL30IETF",
       "name": "Nifty Alpha Low-Volatility 30 Index",
       "ltp": 27.85,
-      "nav": 28.08,
+      "nav": null,
       "change_1d_pct": -0.78,
       "change_30d_pct": 10.45,
       "cagr_1y": -0.32,
@@ -3054,14 +3054,14 @@
       "traded_val_cr": 0.69,
       "week_52_high": 29.17,
       "week_52_low": 24.35,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOMIDMTM",
       "name": "Nifty Midcap 150 Momentum 50 Total Return Index",
       "ltp": 63.11,
-      "nav": 63.66,
+      "nav": null,
       "change_1d_pct": -1.1,
       "change_30d_pct": 9.34,
       "cagr_1y": -2.68,
@@ -3071,14 +3071,14 @@
       "traded_val_cr": 0.58,
       "week_52_high": 70.0,
       "week_52_low": 54.78,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "HDFCMOMENT",
       "name": "HDFC NIFTY200 Momentum 30 ETF",
       "ltp": 30.0,
-      "nav": 30.34,
+      "nav": null,
       "change_1d_pct": -0.89,
       "change_30d_pct": 9.15,
       "cagr_1y": -7.35,
@@ -3088,14 +3088,14 @@
       "traded_val_cr": 0.46,
       "week_52_high": 32.84,
       "week_52_low": 27.13,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "SBIMIDMOM",
       "name": "Nifty Midcap 150 Momentum 50 Index",
       "ltp": 62.5,
-      "nav": 62.88,
+      "nav": null,
       "change_1d_pct": -0.65,
       "change_30d_pct": 9.88,
       "cagr_1y": 0.0,
@@ -3105,14 +3105,14 @@
       "traded_val_cr": 0.44,
       "week_52_high": 67.74,
       "week_52_low": 53.86,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "LOWVOL1",
       "name": "Kotak Nifty 100 Low Vol 30 ETF",
       "ltp": 21.71,
-      "nav": 21.85,
+      "nav": null,
       "change_1d_pct": -0.55,
       "change_30d_pct": 11.59,
       "cagr_1y": -1.5,
@@ -3122,14 +3122,14 @@
       "traded_val_cr": 0.38,
       "week_52_high": 22.9,
       "week_52_low": 18.77,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOMOMENTUM",
       "name": "Nifty 200 Momentum 30 Total Return Index",
       "ltp": 60.11,
-      "nav": 60.85,
+      "nav": null,
       "change_1d_pct": -1.18,
       "change_30d_pct": 9.04,
       "cagr_1y": -7.6,
@@ -3139,31 +3139,31 @@
       "traded_val_cr": 0.38,
       "week_52_high": 66.28,
       "week_52_low": 54.32,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOIPO",
       "name": "BSE Select IPO Total Return Index",
       "ltp": 47.8,
-      "nav": 48.38,
+      "nav": null,
       "change_1d_pct": -1.67,
       "change_30d_pct": 11.33,
-      "cagr_1y": -1.57,
+      "cagr_1y": -1.16,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 71661,
       "traded_val_cr": 0.34,
       "week_52_high": 51.07,
       "week_52_low": 36.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "TOP15IETF",
       "name": "Nifty Top 15 Equal Weight Index",
       "ltp": 10.69,
-      "nav": 10.8,
+      "nav": null,
       "change_1d_pct": -0.65,
       "change_30d_pct": 13.19,
       "cagr_1y": -4.19,
@@ -3173,14 +3173,14 @@
       "traded_val_cr": 0.34,
       "week_52_high": 11.36,
       "week_52_low": 9.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "HDFCVALUE",
       "name": "HDFC NIFTY50 Value 20 ETF",
       "ltp": 131.5,
-      "nav": 134.52,
+      "nav": null,
       "change_1d_pct": -2.11,
       "change_30d_pct": 10.34,
       "cagr_1y": -4.78,
@@ -3190,14 +3190,14 @@
       "traded_val_cr": 0.34,
       "week_52_high": 147.05,
       "week_52_low": 115.75,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "SHARIABEES",
       "name": "Shariah",
       "ltp": 468.17,
-      "nav": 466.26,
+      "nav": null,
       "change_1d_pct": 0.6,
       "change_30d_pct": 6.34,
       "cagr_1y": -9.06,
@@ -3207,14 +3207,14 @@
       "traded_val_cr": 0.33,
       "week_52_high": 534.61,
       "week_52_low": 413.49,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "BANK10ADD",
       "name": "BSE Top 10 Banks Index (TRI)",
       "ltp": 18.69,
-      "nav": 19.34,
+      "nav": null,
       "change_1d_pct": -3.11,
       "change_30d_pct": 16.11,
       "cagr_1y": 0.0,
@@ -3224,14 +3224,14 @@
       "traded_val_cr": 0.31,
       "week_52_high": 19.4,
       "week_52_low": 12.08,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "BANKCASE",
       "name": "BSE Top 10 Banks",
       "ltp": 115.0,
-      "nav": 118.41,
+      "nav": null,
       "change_1d_pct": -3.14,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -3241,14 +3241,14 @@
       "traded_val_cr": 0.29,
       "week_52_high": 121.97,
       "week_52_low": 102.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "DIVOPPBEES",
       "name": "Nifty Dividend Opportunities 50 TRI",
       "ltp": 77.5,
-      "nav": 78.5,
+      "nav": null,
       "change_1d_pct": -0.96,
       "change_30d_pct": 6.57,
       "cagr_1y": -4.96,
@@ -3258,14 +3258,14 @@
       "traded_val_cr": 0.25,
       "week_52_high": 87.09,
       "week_52_low": 70.43,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "SBIEQLWT50",
       "name": "Nifty50 Equal Weight",
       "ltp": 34.16,
-      "nav": 34.62,
+      "nav": null,
       "change_1d_pct": -0.76,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -3275,14 +3275,14 @@
       "traded_val_cr": 0.25,
       "week_52_high": 36.4,
       "week_52_low": 29.64,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MIDQ50ADD",
       "name": "Nifty Midcap 150 Quality 50 Index",
       "ltp": 24.2,
-      "nav": 24.26,
+      "nav": null,
       "change_1d_pct": 0.17,
       "change_30d_pct": 7.81,
       "cagr_1y": -90.37,
@@ -3292,14 +3292,14 @@
       "traded_val_cr": 0.25,
       "week_52_high": 26.01,
       "week_52_low": 21.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "NV20",
       "name": "Nifty50 Value 20",
       "ltp": 14.7,
-      "nav": 14.94,
+      "nav": null,
       "change_1d_pct": -1.74,
       "change_30d_pct": 10.02,
       "cagr_1y": 8054.37,
@@ -3309,14 +3309,14 @@
       "traded_val_cr": 0.23,
       "week_52_high": 16.87,
       "week_52_low": 12.62,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "GROWWMOM50",
       "name": "Nifty 500 Momentum 50 Index- Total Return Index",
       "ltp": 10.74,
-      "nav": 10.77,
+      "nav": null,
       "change_1d_pct": 0.19,
       "change_30d_pct": 8.96,
       "cagr_1y": -2.63,
@@ -3326,14 +3326,14 @@
       "traded_val_cr": 0.22,
       "week_52_high": 11.55,
       "week_52_low": 9.12,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "VAL30IETF",
       "name": "Nifty200 Value 30 Index",
       "ltp": 15.1,
-      "nav": 15.48,
+      "nav": null,
       "change_1d_pct": -1.95,
       "change_30d_pct": 9.03,
       "cagr_1y": 5.02,
@@ -3343,14 +3343,14 @@
       "traded_val_cr": 0.21,
       "week_52_high": 17.7,
       "week_52_low": 13.74,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOMENTUM",
       "name": "Aditya Birla Sun Life Nifty 200 Momentum 30 ETF",
       "ltp": 30.2,
-      "nav": 30.44,
+      "nav": null,
       "change_1d_pct": -0.46,
       "change_30d_pct": 10.36,
       "cagr_1y": -6.57,
@@ -3360,14 +3360,14 @@
       "traded_val_cr": 0.2,
       "week_52_high": 33.0,
       "week_52_low": 27.05,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "ESG",
       "name": "NIFTY100 ESG SECTOR LEADERS",
       "ltp": 42.99,
-      "nav": 43.8,
+      "nav": null,
       "change_1d_pct": -1.62,
       "change_30d_pct": 11.98,
       "cagr_1y": -3.42,
@@ -3377,14 +3377,14 @@
       "traded_val_cr": 0.2,
       "week_52_high": 45.06,
       "week_52_low": 37.52,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "VALUEAXIS",
       "name": "Nifty500 Value 50 TRI",
       "ltp": 31.94,
-      "nav": 32.55,
+      "nav": null,
       "change_1d_pct": -1.24,
       "change_30d_pct": 7.68,
       "cagr_1y": 0.0,
@@ -3394,14 +3394,14 @@
       "traded_val_cr": 0.13,
       "week_52_high": 39.0,
       "week_52_low": 26.76,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "SBIVALETF",
       "name": "Nifty200 Value 30 Index",
       "ltp": 14.71,
-      "nav": 15.03,
+      "nav": null,
       "change_1d_pct": -1.93,
       "change_30d_pct": 9.42,
       "cagr_1y": 0.0,
@@ -3411,14 +3411,14 @@
       "traded_val_cr": 0.13,
       "week_52_high": 17.7,
       "week_52_low": 13.33,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOQUALITY",
       "name": "Motilal Oswal S&P BSE Quality ETF",
       "ltp": 193.58,
-      "nav": 194.03,
+      "nav": null,
       "change_1d_pct": -0.14,
       "change_30d_pct": 8.42,
       "cagr_1y": -2.0,
@@ -3428,31 +3428,31 @@
       "traded_val_cr": 0.13,
       "week_52_high": 225.6,
       "week_52_low": 176.15,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "FLEXIADD",
       "name": "Nifty500 Flexicap Quality 30 TRI",
       "ltp": 10.19,
-      "nav": 10.23,
+      "nav": null,
       "change_1d_pct": -0.29,
       "change_30d_pct": 9.13,
-      "cagr_1y": -6.19,
+      "cagr_1y": -5.75,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 114751,
       "traded_val_cr": 0.12,
       "week_52_high": 11.11,
       "week_52_low": 8.73,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "EMULTIMQ",
       "name": "Nifty500 Multicap Momentum Quality 50 Total Return Index",
       "ltp": 40.58,
-      "nav": 40.62,
+      "nav": null,
       "change_1d_pct": -0.81,
       "change_30d_pct": 7.43,
       "cagr_1y": -5.96,
@@ -3462,14 +3462,14 @@
       "traded_val_cr": 0.12,
       "week_52_high": 43.54,
       "week_52_low": 36.25,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "BANK10BETF",
       "name": "Bajaj Finserv BSE Top 10 Banks ETF",
       "ltp": 23.0,
-      "nav": 23.8,
+      "nav": null,
       "change_1d_pct": -2.58,
       "change_30d_pct": 15.88,
       "cagr_1y": 0.0,
@@ -3479,14 +3479,14 @@
       "traded_val_cr": 0.1,
       "week_52_high": 24.9,
       "week_52_low": 19.33,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "EQUAL50",
       "name": "Nifty50 Equal Weight",
       "ltp": 341.05,
-      "nav": 344.59,
+      "nav": null,
       "change_1d_pct": -0.84,
       "change_30d_pct": 10.97,
       "cagr_1y": 1.75,
@@ -3496,14 +3496,14 @@
       "traded_val_cr": 0.1,
       "week_52_high": 346.04,
       "week_52_low": 295.16,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "QUAL30IETF",
       "name": "ICICI Prudential Nifty 200 Quality 30 ETF",
       "ltp": 20.6,
-      "nav": 20.58,
+      "nav": null,
       "change_1d_pct": 0.29,
       "change_30d_pct": 4.92,
       "cagr_1y": -7.01,
@@ -3513,14 +3513,14 @@
       "traded_val_cr": 0.09,
       "week_52_high": 23.0,
       "week_52_low": 18.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "NIFTYQLITY",
       "name": "Aditya Birla Sun Life Nifty 200 Quality 30 ETF",
       "ltp": 20.81,
-      "nav": 20.79,
+      "nav": null,
       "change_1d_pct": 0.19,
       "change_30d_pct": 5.45,
       "cagr_1y": -6.55,
@@ -3530,14 +3530,14 @@
       "traded_val_cr": 0.08,
       "week_52_high": 23.03,
       "week_52_low": 18.95,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "SELECTIPO",
       "name": "BSE Select IPO Index",
       "ltp": 47.93,
-      "nav": 48.35,
+      "nav": null,
       "change_1d_pct": -0.62,
       "change_30d_pct": 11.84,
       "cagr_1y": -0.56,
@@ -3547,14 +3547,14 @@
       "traded_val_cr": 0.08,
       "week_52_high": 50.07,
       "week_52_low": 37.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOALPHA50",
       "name": "Nifty Alpha 50 Total Return Index",
       "ltp": 52.22,
-      "nav": 52.76,
+      "nav": null,
       "change_1d_pct": -1.32,
       "change_30d_pct": 5.71,
       "cagr_1y": -0.07,
@@ -3564,31 +3564,31 @@
       "traded_val_cr": 0.08,
       "week_52_high": 62.0,
       "week_52_low": 42.1,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "NIFTY100EW",
       "name": "Nifty 100 Equal Weight Index",
       "ltp": 35.48,
-      "nav": 35.77,
+      "nav": null,
       "change_1d_pct": -0.76,
       "change_30d_pct": 9.81,
-      "cagr_1y": 3.55,
+      "cagr_1y": 4.29,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 22666,
       "traded_val_cr": 0.08,
       "week_52_high": 41.41,
       "week_52_low": 29.84,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "TOP20",
       "name": "Nifty Top 20 Equal Weight",
       "ltp": 9.48,
-      "nav": 9.6,
+      "nav": null,
       "change_1d_pct": -1.15,
       "change_30d_pct": 12.06,
       "cagr_1y": 0.55,
@@ -3598,14 +3598,14 @@
       "traded_val_cr": 0.07,
       "week_52_high": 9.99,
       "week_52_low": 8.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOBANK10",
       "name": "BSE Top 10 Banks Total Return Index",
       "ltp": 18.84,
-      "nav": 19.35,
+      "nav": null,
       "change_1d_pct": -2.53,
       "change_30d_pct": 15.6,
       "cagr_1y": 0.0,
@@ -3615,31 +3615,31 @@
       "traded_val_cr": 0.07,
       "week_52_high": 20.0,
       "week_52_low": 15.75,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MOMENTUM30",
       "name": "Nifty 200 Momentum 30 Index",
       "ltp": 29.82,
-      "nav": 30.06,
+      "nav": null,
       "change_1d_pct": -0.63,
       "change_30d_pct": 9.43,
-      "cagr_1y": -6.67,
+      "cagr_1y": -5.87,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 22222,
       "traded_val_cr": 0.07,
       "week_52_high": 34.29,
       "week_52_low": 26.91,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "HDFCQUAL",
       "name": "HDFC NIFTY100 Quality 30 ETF",
       "ltp": 59.67,
-      "nav": 59.47,
+      "nav": null,
       "change_1d_pct": 0.69,
       "change_30d_pct": 7.6,
       "cagr_1y": -1.23,
@@ -3649,14 +3649,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 61.87,
       "week_52_low": 51.91,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "DIVIDEND",
       "name": "BSE 500 Dividend Leaders",
       "ltp": 35.01,
-      "nav": 35.23,
+      "nav": null,
       "change_1d_pct": -0.6,
       "change_30d_pct": 3.75,
       "cagr_1y": -5.43,
@@ -3666,14 +3666,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 38.03,
       "week_52_low": 30.89,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "LARGEMID50",
       "name": "BSE LargeMid (60:40) Stable Dividend 50 TRI (Total Return Index)",
       "ltp": 37.7,
-      "nav": 38.28,
+      "nav": null,
       "change_1d_pct": -1.49,
       "change_30d_pct": 12.73,
       "cagr_1y": 0.0,
@@ -3683,14 +3683,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 38.46,
       "week_52_low": 32.93,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "VALUE",
       "name": "Nifty 500 Value 50",
       "ltp": 15.68,
-      "nav": 15.99,
+      "nav": null,
       "change_1d_pct": -1.88,
       "change_30d_pct": 7.91,
       "cagr_1y": 0.0,
@@ -3700,14 +3700,14 @@
       "traded_val_cr": 0.05,
       "week_52_high": 19.69,
       "week_52_low": 14.43,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "AONETMMQ50",
       "name": "Nifty Total Market Momentum Quality 50 TRI",
       "ltp": 10.01,
-      "nav": 10.02,
+      "nav": null,
       "change_1d_pct": 0.5,
       "change_30d_pct": 8.11,
       "cagr_1y": 10.69,
@@ -3717,14 +3717,14 @@
       "traded_val_cr": 0.04,
       "week_52_high": 10.87,
       "week_52_low": 8.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "LOWVOL",
       "name": "Mirae Asset Nifty 100 Low Volatility 30 ETF",
       "ltp": 211.28,
-      "nav": 213.41,
+      "nav": null,
       "change_1d_pct": -0.75,
       "change_30d_pct": 11.08,
       "cagr_1y": -1.97,
@@ -3734,14 +3734,14 @@
       "traded_val_cr": 0.03,
       "week_52_high": 219.1,
       "week_52_low": 174.78,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "EQUAL200",
       "name": "BSE 200 Equal Weight",
       "ltp": 13.71,
-      "nav": 11.74,
+      "nav": null,
       "change_1d_pct": -1.08,
       "change_30d_pct": 9.94,
       "cagr_1y": 1.57,
@@ -3751,14 +3751,14 @@
       "traded_val_cr": 0.02,
       "week_52_high": 14.6,
       "week_52_low": 11.75,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "MON50EQUAL",
       "name": "Nifty 50 Equal Weight Total Return Index",
       "ltp": 34.33,
-      "nav": 34.55,
+      "nav": null,
       "change_1d_pct": -0.35,
       "change_30d_pct": 11.14,
       "cagr_1y": 2.07,
@@ -3768,14 +3768,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 36.0,
       "week_52_low": 29.43,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "SMALLGROWW",
       "name": "Nifty Smallcap 250 Momentum Quality 100 Index TRI",
       "ltp": 48.0,
-      "nav": 48.19,
+      "nav": null,
       "change_1d_pct": -0.02,
       "change_30d_pct": 6.09,
       "cagr_1y": 0.0,
@@ -3785,14 +3785,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 50.84,
       "week_52_low": 39.41,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "HDFCLOWVOL",
       "name": "HDFC NIFTY100 Low Volatility 30 ETF",
       "ltp": 21.13,
-      "nav": 21.32,
+      "nav": null,
       "change_1d_pct": -0.33,
       "change_30d_pct": 11.52,
       "cagr_1y": -2.18,
@@ -3802,14 +3802,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 22.28,
       "week_52_low": 18.35,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "GROWWLOVOL",
       "name": "Nifty 500 Low Volatility 50 Index   TRI",
       "ltp": 10.71,
-      "nav": 10.74,
+      "nav": null,
       "change_1d_pct": 0.28,
       "change_30d_pct": 10.13,
       "cagr_1y": -0.4,
@@ -3819,14 +3819,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 11.1,
       "week_52_low": 9.39,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "EBANK10",
       "name": "BSE Top 10 Bank Total Return Index",
       "ltp": 18.41,
-      "nav": 19.2,
+      "nav": null,
       "change_1d_pct": -3.76,
       "change_30d_pct": 13.36,
       "cagr_1y": 0.0,
@@ -3836,14 +3836,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 19.22,
       "week_52_low": 15.63,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "ELMDIV",
       "name": "Index (BSE LargeMid (60:40) Stable Dividend 50)",
       "ltp": 37.66,
-      "nav": 38.27,
+      "nav": null,
       "change_1d_pct": -1.41,
       "change_30d_pct": 13.57,
       "cagr_1y": 0.0,
@@ -3853,31 +3853,31 @@
       "traded_val_cr": 0.0,
       "week_52_high": 38.67,
       "week_52_low": 33.17,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Factor & Smart Beta",
       "symbol": "QUALITY30",
       "name": "Nifty200 Quality 30 Index",
       "ltp": 20.11,
-      "nav": 20.19,
+      "nav": null,
       "change_1d_pct": -0.4,
       "change_30d_pct": 6.32,
-      "cagr_1y": -6.0,
+      "cagr_1y": -5.43,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 1956,
       "traded_val_cr": 0.0,
       "week_52_high": 23.18,
       "week_52_low": 18.09,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLDBEES",
       "name": "Gold",
       "ltp": 102.94,
-      "nav": 102.03,
+      "nav": null,
       "change_1d_pct": 0.71,
       "change_30d_pct": -11.09,
       "cagr_1y": -1.5,
@@ -3887,14 +3887,14 @@
       "traded_val_cr": 821.35,
       "week_52_high": 148.14,
       "week_52_low": 100.11,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLDIETF",
       "name": "Gold",
       "ltp": 106.65,
-      "nav": 105.8,
+      "nav": null,
       "change_1d_pct": 1.47,
       "change_30d_pct": -11.09,
       "cagr_1y": -1.3,
@@ -3904,14 +3904,14 @@
       "traded_val_cr": 434.12,
       "week_52_high": 158.0,
       "week_52_low": 103.62,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "SBIGOLD",
       "name": "Gold",
       "ltp": 106.07,
-      "nav": 105.3,
+      "nav": null,
       "change_1d_pct": 1.56,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -3921,14 +3921,14 @@
       "traded_val_cr": 148.4,
       "week_52_high": 153.95,
       "week_52_low": 103.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "TATAGOLD",
       "name": "Tata Gold Exchange Traded Fund",
       "ltp": 12.12,
-      "nav": 12.03,
+      "nav": null,
       "change_1d_pct": 0.92,
       "change_30d_pct": -11.15,
       "cagr_1y": -1.06,
@@ -3938,14 +3938,14 @@
       "traded_val_cr": 147.77,
       "week_52_high": 17.7,
       "week_52_low": 10.33,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "HDFCGOLD",
       "name": "Gold",
       "ltp": 106.3,
-      "nav": 105.45,
+      "nav": null,
       "change_1d_pct": 1.36,
       "change_30d_pct": -11.33,
       "cagr_1y": -1.59,
@@ -3955,14 +3955,14 @@
       "traded_val_cr": 114.51,
       "week_52_high": 152.3,
       "week_52_low": 100.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLD1",
       "name": "Gold",
       "ltp": 103.94,
-      "nav": 103.04,
+      "nav": null,
       "change_1d_pct": 1.46,
       "change_30d_pct": -11.07,
       "cagr_1y": -1.15,
@@ -3972,14 +3972,14 @@
       "traded_val_cr": 92.1,
       "week_52_high": 158.0,
       "week_52_low": 101.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLDETF",
       "name": "Mirae Asset Gold ETF",
       "ltp": 121.05,
-      "nav": 120.23,
+      "nav": null,
       "change_1d_pct": 0.67,
       "change_30d_pct": -11.36,
       "cagr_1y": -1.13,
@@ -3989,14 +3989,14 @@
       "traded_val_cr": 59.43,
       "week_52_high": 173.5,
       "week_52_low": 114.55,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLDAXIS",
       "name": "Gold",
       "ltp": 103.51,
-      "nav": 102.87,
+      "nav": null,
       "change_1d_pct": 1.18,
       "change_30d_pct": -11.07,
       "cagr_1y": -1.45,
@@ -4006,14 +4006,14 @@
       "traded_val_cr": 47.92,
       "week_52_high": 150.0,
       "week_52_low": 100.83,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLDCASE",
       "name": "Zerodha Gold ETF",
       "ltp": 19.55,
-      "nav": 19.41,
+      "nav": null,
       "change_1d_pct": 1.14,
       "change_30d_pct": -11.2,
       "cagr_1y": -1.31,
@@ -4023,14 +4023,14 @@
       "traded_val_cr": 43.76,
       "week_52_high": 27.94,
       "week_52_low": 19.02,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLDADD",
       "name": "DSP Gold ETF",
       "ltp": 12.19,
-      "nav": 12.01,
+      "nav": null,
       "change_1d_pct": 2.35,
       "change_30d_pct": -10.87,
       "cagr_1y": -0.92,
@@ -4040,14 +4040,14 @@
       "traded_val_cr": 33.71,
       "week_52_high": 18.1,
       "week_52_low": 11.78,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "BSLGOLDETF",
       "name": "Gold",
       "ltp": 109.24,
-      "nav": 108.65,
+      "nav": null,
       "change_1d_pct": 0.52,
       "change_30d_pct": -11.29,
       "cagr_1y": -1.4,
@@ -4057,14 +4057,14 @@
       "traded_val_cr": 19.42,
       "week_52_high": 155.99,
       "week_52_low": 107.07,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLDBETA",
       "name": "Gold",
       "ltp": 104.6,
-      "nav": 103.81,
+      "nav": null,
       "change_1d_pct": 1.26,
       "change_30d_pct": -11.32,
       "cagr_1y": -1.28,
@@ -4074,14 +4074,14 @@
       "traded_val_cr": 19.33,
       "week_52_high": 149.35,
       "week_52_low": 102.15,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GROWWGOLD",
       "name": "Commodity",
       "ltp": 12.24,
-      "nav": 12.08,
+      "nav": null,
       "change_1d_pct": 2.0,
       "change_30d_pct": -10.6,
       "cagr_1y": -90.1,
@@ -4091,14 +4091,14 @@
       "traded_val_cr": 6.46,
       "week_52_high": 18.0,
       "week_52_low": 11.84,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "EGOLD",
       "name": "Edelweiss Gold ETF",
       "ltp": 124.7,
-      "nav": 123.6,
+      "nav": null,
       "change_1d_pct": 0.89,
       "change_30d_pct": -11.14,
       "cagr_1y": -1.47,
@@ -4108,7 +4108,7 @@
       "traded_val_cr": 5.77,
       "week_52_high": 184.95,
       "week_52_low": 121.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
@@ -4125,14 +4125,14 @@
       "traded_val_cr": 4.38,
       "week_52_high": 162.0,
       "week_52_low": 110.05,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "QGOLDHALF",
       "name": "Gold",
       "ltp": 102.95,
-      "nav": 102.23,
+      "nav": null,
       "change_1d_pct": 1.5,
       "change_30d_pct": -11.34,
       "cagr_1y": -1.36,
@@ -4142,14 +4142,14 @@
       "traded_val_cr": 3.23,
       "week_52_high": 149.69,
       "week_52_low": 100.24,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "IVZINGOLD",
       "name": "Gold",
       "ltp": 108.25,
-      "nav": 107.39,
+      "nav": null,
       "change_1d_pct": 2.03,
       "change_30d_pct": -11.22,
       "cagr_1y": -99.02,
@@ -4159,31 +4159,31 @@
       "traded_val_cr": 2.19,
       "week_52_high": 156.0,
       "week_52_low": 104.4,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLD360",
       "name": "Commodity-Gold",
       "ltp": 121.55,
-      "nav": 120.85,
+      "nav": null,
       "change_1d_pct": 0.7,
       "change_30d_pct": -10.91,
-      "cagr_1y": 2.22,
+      "cagr_1y": 1.12,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 122663,
       "traded_val_cr": 1.5,
       "week_52_high": 178.0,
       "week_52_low": 117.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "GOLDBND",
       "name": "Commodity - Gold",
       "ltp": 125.15,
-      "nav": 123.7,
+      "nav": null,
       "change_1d_pct": 1.6,
       "change_30d_pct": -10.89,
       "cagr_1y": -24.17,
@@ -4193,14 +4193,14 @@
       "traded_val_cr": 1.32,
       "week_52_high": 180.16,
       "week_52_low": 115.17,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "AONEGOLD",
       "name": "Domestic price of Gold",
       "ltp": 11.71,
-      "nav": 11.56,
+      "nav": null,
       "change_1d_pct": 1.83,
       "change_30d_pct": -10.78,
       "cagr_1y": -1.11,
@@ -4210,48 +4210,48 @@
       "traded_val_cr": 0.88,
       "week_52_high": 17.73,
       "week_52_low": 11.36,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "MOGOLD",
       "name": "Domestic Price of Physical Gold",
       "ltp": 123.0,
-      "nav": 122.36,
+      "nav": null,
       "change_1d_pct": 0.86,
       "change_30d_pct": -11.05,
-      "cagr_1y": 1.9,
+      "cagr_1y": 1.6,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 65789,
       "traded_val_cr": 0.81,
       "week_52_high": 175.0,
       "week_52_low": 119.95,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "UNIONGOLD",
       "name": "Commodity Gold",
       "ltp": 122.85,
-      "nav": 121.13,
+      "nav": null,
       "change_1d_pct": 2.2,
       "change_30d_pct": -10.84,
-      "cagr_1y": 2.0,
+      "cagr_1y": 1.36,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 60920,
       "traded_val_cr": 0.74,
       "week_52_high": 177.0,
       "week_52_low": 118.25,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "HSBCGOLD",
       "name": "Commodity",
       "ltp": 108.59,
-      "nav": 107.76,
+      "nav": null,
       "change_1d_pct": 0.82,
       "change_30d_pct": -10.89,
       "cagr_1y": 0.0,
@@ -4261,31 +4261,31 @@
       "traded_val_cr": 0.55,
       "week_52_high": 146.4,
       "week_52_low": 105.64,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "CHOICEGOLD",
       "name": "Gold",
       "ltp": 124.2,
-      "nav": 122.72,
+      "nav": null,
       "change_1d_pct": 1.1,
       "change_30d_pct": -10.85,
-      "cagr_1y": 1.5,
+      "cagr_1y": 1.13,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 27717,
       "traded_val_cr": 0.34,
       "week_52_high": 175.49,
       "week_52_low": 115.79,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "TWCGOLDETF",
       "name": "Commodity",
       "ltp": 125.07,
-      "nav": 123.3,
+      "nav": null,
       "change_1d_pct": 1.89,
       "change_30d_pct": -10.66,
       "cagr_1y": -23.21,
@@ -4295,14 +4295,14 @@
       "traded_val_cr": 0.15,
       "week_52_high": 187.98,
       "week_52_low": 121.14,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Gold",
       "symbol": "BBNPPGOLD",
       "name": "Baroda BNP Paribas Gold ETF",
       "ltp": 121.05,
-      "nav": 119.63,
+      "nav": null,
       "change_1d_pct": 0.92,
       "change_30d_pct": -10.93,
       "cagr_1y": -0.66,
@@ -4312,14 +4312,14 @@
       "traded_val_cr": 0.11,
       "week_52_high": 184.05,
       "week_52_low": 117.4,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "HDFCSML250",
       "name": "HDFC NIFTY Smallcap 250 ETF",
       "ltp": 177.97,
-      "nav": 179.18,
+      "nav": null,
       "change_1d_pct": -0.64,
       "change_30d_pct": 7.63,
       "cagr_1y": 5.15,
@@ -4329,31 +4329,31 @@
       "traded_val_cr": 32.21,
       "week_52_high": 189.83,
       "week_52_low": 142.7,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MID150BEES",
       "name": "Nifty Midcap 150 TRI",
       "ltp": 233.5,
-      "nav": 235.68,
+      "nav": null,
       "change_1d_pct": -0.68,
       "change_30d_pct": 9.58,
-      "cagr_1y": 2.32,
+      "cagr_1y": 2.64,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 583869,
       "traded_val_cr": 13.69,
       "week_52_high": 247.15,
       "week_52_low": 190.43,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MIDCAPETF",
       "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty Midcap 150 ETF",
       "ltp": 23.11,
-      "nav": 23.29,
+      "nav": null,
       "change_1d_pct": -0.52,
       "change_30d_pct": 9.84,
       "cagr_1y": 1.23,
@@ -4363,14 +4363,14 @@
       "traded_val_cr": 4.16,
       "week_52_high": 24.57,
       "week_52_low": 19.6,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MIDSELIETF",
       "name": "S&P BSE Midcap Select Index",
       "ltp": 19.3,
-      "nav": 19.49,
+      "nav": null,
       "change_1d_pct": -0.72,
       "change_30d_pct": 10.44,
       "cagr_1y": 3.81,
@@ -4380,14 +4380,14 @@
       "traded_val_cr": 2.86,
       "week_52_high": 20.39,
       "week_52_low": 14.55,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MOM100",
       "name": "Nifty Midcap 100",
       "ltp": 66.17,
-      "nav": 67.05,
+      "nav": null,
       "change_1d_pct": -0.99,
       "change_30d_pct": 10.37,
       "cagr_1y": 1.01,
@@ -4397,14 +4397,14 @@
       "traded_val_cr": 2.28,
       "week_52_high": 70.32,
       "week_52_low": 56.15,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "SML100CASE",
       "name": "Nifty Smallcap 100 Index",
       "ltp": 10.95,
-      "nav": 11.05,
+      "nav": null,
       "change_1d_pct": -0.9,
       "change_30d_pct": 8.11,
       "cagr_1y": 8.74,
@@ -4414,14 +4414,14 @@
       "traded_val_cr": 1.9,
       "week_52_high": 11.92,
       "week_52_low": 8.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MIDCAPIETF",
       "name": "Nifty Midcap 150",
       "ltp": 23.3,
-      "nav": 23.56,
+      "nav": null,
       "change_1d_pct": -0.77,
       "change_30d_pct": 9.62,
       "cagr_1y": 1.13,
@@ -4431,14 +4431,14 @@
       "traded_val_cr": 1.55,
       "week_52_high": 24.88,
       "week_52_low": 19.89,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "HDFCMID150",
       "name": "HDFC NIFTY Midcap 150 ETF",
       "ltp": 22.85,
-      "nav": 23.07,
+      "nav": null,
       "change_1d_pct": -0.52,
       "change_30d_pct": 9.44,
       "cagr_1y": 0.84,
@@ -4448,14 +4448,14 @@
       "traded_val_cr": 1.29,
       "week_52_high": 25.2,
       "week_52_low": 19.42,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MOSMALL250",
       "name": "Motilal Oswal Nifty Smallcap 250 ETF",
       "ltp": 17.78,
-      "nav": 17.87,
+      "nav": null,
       "change_1d_pct": -0.34,
       "change_30d_pct": 7.45,
       "cagr_1y": 5.54,
@@ -4465,14 +4465,14 @@
       "traded_val_cr": 1.14,
       "week_52_high": 19.38,
       "week_52_low": 14.22,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MID150CASE",
       "name": "Zerodha Nifty Midcap 150 ETF",
       "ltp": 11.4,
-      "nav": 11.48,
+      "nav": null,
       "change_1d_pct": -0.35,
       "change_30d_pct": 9.33,
       "cagr_1y": 1.61,
@@ -4482,14 +4482,14 @@
       "traded_val_cr": 1.08,
       "week_52_high": 13.0,
       "week_52_low": 9.63,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MIDBANKADD",
       "name": "BSE MidSmall Private Banks Index",
       "ltp": 17.21,
-      "nav": 17.39,
+      "nav": null,
       "change_1d_pct": -0.58,
       "change_30d_pct": 6.32,
       "cagr_1y": 0.0,
@@ -4499,31 +4499,31 @@
       "traded_val_cr": 0.85,
       "week_52_high": 18.22,
       "week_52_low": 15.04,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "SMALL250",
       "name": "Nifty Smallcap 250",
       "ltp": 17.74,
-      "nav": 17.85,
+      "nav": null,
       "change_1d_pct": -0.45,
       "change_30d_pct": 7.65,
-      "cagr_1y": 5.98,
+      "cagr_1y": 6.61,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 361230,
       "traded_val_cr": 0.64,
       "week_52_high": 19.95,
       "week_52_low": 14.16,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MIDCAP",
       "name": "Nifty Midcap 50 Index",
       "ltp": 18.06,
-      "nav": 18.29,
+      "nav": null,
       "change_1d_pct": -1.1,
       "change_30d_pct": 11.05,
       "cagr_1y": -88.7,
@@ -4533,14 +4533,14 @@
       "traded_val_cr": 0.44,
       "week_52_high": 19.27,
       "week_52_low": 15.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "SBIMID150",
       "name": "Nifty Midcap 150 Index",
       "ltp": 22.69,
-      "nav": 22.83,
+      "nav": null,
       "change_1d_pct": -0.35,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -4550,14 +4550,14 @@
       "traded_val_cr": 0.14,
       "week_52_high": 24.06,
       "week_52_low": 19.81,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "GROWWSC250",
       "name": "Nifty Smallcap 250 Index - TRI",
       "ltp": 10.24,
-      "nav": 10.29,
+      "nav": null,
       "change_1d_pct": -0.19,
       "change_30d_pct": 6.81,
       "cagr_1y": 5.77,
@@ -4567,7 +4567,7 @@
       "traded_val_cr": 0.12,
       "week_52_high": 10.97,
       "week_52_low": 8.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
@@ -4577,21 +4577,21 @@
       "nav": null,
       "change_1d_pct": -0.26,
       "change_30d_pct": 9.86,
-      "cagr_1y": 2.17,
+      "cagr_1y": 3.36,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 46516,
       "traded_val_cr": 0.11,
       "week_52_high": 24.95,
       "week_52_low": 18.97,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "SBISMLETF",
       "name": "Nifty Smallcap 250 Index",
       "ltp": 17.68,
-      "nav": 17.79,
+      "nav": null,
       "change_1d_pct": -0.62,
       "change_30d_pct": 7.4,
       "cagr_1y": 0.0,
@@ -4601,14 +4601,14 @@
       "traded_val_cr": 0.09,
       "week_52_high": 19.0,
       "week_52_low": 16.18,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "SMALLIETF",
       "name": "Nifty Smallcap 250 Index",
       "ltp": 17.79,
-      "nav": 17.82,
+      "nav": null,
       "change_1d_pct": -0.39,
       "change_30d_pct": 6.92,
       "cagr_1y": 0.0,
@@ -4618,14 +4618,14 @@
       "traded_val_cr": 0.08,
       "week_52_high": 19.49,
       "week_52_low": 16.19,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "SMALLADD",
       "name": "Nifty Smallcap 250 Index",
       "ltp": 17.75,
-      "nav": 17.92,
+      "nav": null,
       "change_1d_pct": -1.11,
       "change_30d_pct": 7.5,
       "cagr_1y": 8.92,
@@ -4635,14 +4635,14 @@
       "traded_val_cr": 0.07,
       "week_52_high": 19.5,
       "week_52_low": 14.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MIDCAPBETA",
       "name": "UTI Nifty Midcap 150 Exchange Traded Fund (ETF)",
       "ltp": 228.2,
-      "nav": 230.3,
+      "nav": null,
       "change_1d_pct": -0.78,
       "change_30d_pct": 10.34,
       "cagr_1y": 2.72,
@@ -4652,14 +4652,14 @@
       "traded_val_cr": 0.06,
       "week_52_high": 240.0,
       "week_52_low": 192.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "GROWWMC150",
       "name": "Nifty Midcap 150 Index - TRI",
       "ltp": 227.99,
-      "nav": 228.13,
+      "nav": null,
       "change_1d_pct": -0.79,
       "change_30d_pct": 9.82,
       "cagr_1y": 0.65,
@@ -4669,14 +4669,14 @@
       "traded_val_cr": 0.03,
       "week_52_high": 245.0,
       "week_52_low": 193.6,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "LICNMID100",
       "name": "LIC MF Nifty Midcap 100 ETF",
       "ltp": 61.46,
-      "nav": 62.32,
+      "nav": null,
       "change_1d_pct": -0.84,
       "change_30d_pct": 10.15,
       "cagr_1y": 1.95,
@@ -4686,14 +4686,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 66.4,
       "week_52_low": 52.3,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MOLOWVOL",
       "name": "Nifty Midcap 100 TRI",
       "ltp": 36.1,
-      "nav": 36.62,
+      "nav": null,
       "change_1d_pct": -1.2,
       "change_30d_pct": 8.05,
       "cagr_1y": -7.59,
@@ -4703,14 +4703,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 43.07,
       "week_52_low": 32.84,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Midcap & Smallcap",
       "symbol": "MIDCAPADD",
       "name": "Nifty Midcap 150 Index",
       "ltp": 22.66,
-      "nav": 22.81,
+      "nav": null,
       "change_1d_pct": -0.26,
       "change_30d_pct": 10.27,
       "cagr_1y": 2.5,
@@ -4720,14 +4720,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 25.5,
       "week_52_low": 19.27,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIFTYBEES",
       "name": "Nifty 50",
       "ltp": 289.48,
-      "nav": 294.47,
+      "nav": null,
       "change_1d_pct": -1.61,
       "change_30d_pct": 12.52,
       "cagr_1y": -2.39,
@@ -4737,14 +4737,14 @@
       "traded_val_cr": 339.2,
       "week_52_high": 302.25,
       "week_52_low": 251.7,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "JUNIORBEES",
       "name": "Nippon India ETF Nifty Next 50 Junior BeES",
       "ltp": 786.94,
-      "nav": 792.89,
+      "nav": null,
       "change_1d_pct": -0.52,
       "change_30d_pct": 10.66,
       "cagr_1y": 5.44,
@@ -4754,14 +4754,14 @@
       "traded_val_cr": 31.25,
       "week_52_high": 823.97,
       "week_52_low": 632.34,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SBINIFTY50",
       "name": "Nifty 50",
       "ltp": 273.5,
-      "nav": 278.28,
+      "nav": null,
       "change_1d_pct": -1.52,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -4771,31 +4771,31 @@
       "traded_val_cr": 29.38,
       "week_52_high": 287.33,
       "week_52_low": 234.87,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIFTYIETF",
       "name": "Nifty 50",
       "ltp": 288.2,
-      "nav": 292.98,
+      "nav": null,
       "change_1d_pct": -1.45,
       "change_30d_pct": 12.54,
-      "cagr_1y": -1.68,
+      "cagr_1y": -1.44,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 757085,
       "traded_val_cr": 21.94,
       "week_52_high": 304.14,
       "week_52_low": 247.7,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "HDFCNIFTY",
       "name": "Nifty 50",
       "ltp": 286.3,
-      "nav": 291.27,
+      "nav": null,
       "change_1d_pct": -1.62,
       "change_30d_pct": 12.68,
       "cagr_1y": -2.31,
@@ -4805,14 +4805,14 @@
       "traded_val_cr": 11.65,
       "week_52_high": 301.88,
       "week_52_low": 244.82,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NEXT50IETF",
       "name": "Nifty Next 50",
       "ltp": 76.88,
-      "nav": 77.38,
+      "nav": null,
       "change_1d_pct": -0.27,
       "change_30d_pct": 10.47,
       "cagr_1y": 5.64,
@@ -4822,14 +4822,14 @@
       "traded_val_cr": 5.64,
       "week_52_high": 80.38,
       "week_52_low": 62.6,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIFTY1",
       "name": "Nifty 50",
       "ltp": 282.59,
-      "nav": 286.88,
+      "nav": null,
       "change_1d_pct": -1.27,
       "change_30d_pct": 12.41,
       "cagr_1y": -2.39,
@@ -4839,14 +4839,14 @@
       "traded_val_cr": 3.96,
       "week_52_high": 295.8,
       "week_52_low": 244.8,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIFTYAXIS",
       "name": "Nifty 50",
       "ltp": 281.13,
-      "nav": 286.09,
+      "nav": null,
       "change_1d_pct": -1.55,
       "change_30d_pct": 12.62,
       "cagr_1y": -2.14,
@@ -4856,14 +4856,14 @@
       "traded_val_cr": 3.76,
       "week_52_high": 296.38,
       "week_52_low": 241.53,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NEXT50",
       "name": "Nifty Next 50",
       "ltp": 748.31,
-      "nav": 757.36,
+      "nav": null,
       "change_1d_pct": -0.89,
       "change_30d_pct": 10.14,
       "cagr_1y": 5.39,
@@ -4873,14 +4873,14 @@
       "traded_val_cr": 3.56,
       "week_52_high": 785.96,
       "week_52_low": 617.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIFTYETF",
       "name": "Nifty 50",
       "ltp": 276.08,
-      "nav": 281.16,
+      "nav": null,
       "change_1d_pct": -1.79,
       "change_30d_pct": 12.53,
       "cagr_1y": -2.42,
@@ -4890,14 +4890,14 @@
       "traded_val_cr": 3.51,
       "week_52_high": 289.05,
       "week_52_low": 224.96,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "MONIFTY500",
       "name": "Motilal Oswal Nifty 500 ETF",
       "ltp": 24.39,
-      "nav": 24.67,
+      "nav": null,
       "change_1d_pct": -1.01,
       "change_30d_pct": 11.26,
       "cagr_1y": 0.04,
@@ -4907,14 +4907,14 @@
       "traded_val_cr": 2.87,
       "week_52_high": 28.28,
       "week_52_low": 20.75,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "HDFCBSE500",
       "name": "HDFC S&P BSE 500 ETF",
       "ltp": 38.29,
-      "nav": 38.8,
+      "nav": null,
       "change_1d_pct": -0.67,
       "change_30d_pct": 10.57,
       "cagr_1y": -0.29,
@@ -4924,14 +4924,14 @@
       "traded_val_cr": 2.25,
       "week_52_high": 40.0,
       "week_52_low": 32.65,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "TOP100CASE",
       "name": "Zerodha Nifty 100 ETF",
       "ltp": 11.11,
-      "nav": 11.22,
+      "nav": null,
       "change_1d_pct": -0.71,
       "change_30d_pct": 12.31,
       "cagr_1y": -1.17,
@@ -4941,31 +4941,31 @@
       "traded_val_cr": 1.97,
       "week_52_high": 11.57,
       "week_52_low": 9.48,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIF100BEES",
       "name": "Nifty 100 TRI",
       "ltp": 279.0,
-      "nav": 283.07,
+      "nav": null,
       "change_1d_pct": -1.22,
       "change_30d_pct": 12.08,
-      "cagr_1y": -0.94,
+      "cagr_1y": -0.46,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 59242,
       "traded_val_cr": 1.67,
       "week_52_high": 289.16,
       "week_52_low": 240.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIFTYBETA",
       "name": "Nifty 50",
       "ltp": 281.45,
-      "nav": 286.57,
+      "nav": null,
       "change_1d_pct": -1.6,
       "change_30d_pct": 12.56,
       "cagr_1y": -1.5,
@@ -4975,14 +4975,14 @@
       "traded_val_cr": 1.53,
       "week_52_high": 297.48,
       "week_52_low": 244.9,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SENSEXIETF",
       "name": "SENSEX",
       "ltp": 950.07,
-      "nav": 966.69,
+      "nav": null,
       "change_1d_pct": -1.81,
       "change_30d_pct": 13.16,
       "cagr_1y": -2.93,
@@ -4992,14 +4992,14 @@
       "traded_val_cr": 1.5,
       "week_52_high": 999.84,
       "week_52_low": 731.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SBINEXT50",
       "name": "Nifty Next 50",
       "ltp": 779.0,
-      "nav": 786.22,
+      "nav": null,
       "change_1d_pct": -0.84,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -5009,14 +5009,14 @@
       "traded_val_cr": 1.41,
       "week_52_high": 840.0,
       "week_52_low": 636.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "GROWWNIFTY",
       "name": "Nifty 50 Index - TRI",
       "ltp": 10.3,
-      "nav": 10.44,
+      "nav": null,
       "change_1d_pct": -1.25,
       "change_30d_pct": 12.97,
       "cagr_1y": 2.9,
@@ -5026,14 +5026,14 @@
       "traded_val_cr": 1.23,
       "week_52_high": 11.88,
       "week_52_low": 8.89,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "BSLNIFTY",
       "name": "Nifty 50",
       "ltp": 29.75,
-      "nav": 30.3,
+      "nav": null,
       "change_1d_pct": -1.59,
       "change_30d_pct": 12.38,
       "cagr_1y": -2.37,
@@ -5043,14 +5043,14 @@
       "traded_val_cr": 1.22,
       "week_52_high": 33.0,
       "week_52_low": 25.7,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "HDFCSENSEX",
       "name": "SENSEX",
       "ltp": 93.42,
-      "nav": 95.37,
+      "nav": null,
       "change_1d_pct": -1.93,
       "change_30d_pct": 12.93,
       "cagr_1y": -3.15,
@@ -5060,14 +5060,14 @@
       "traded_val_cr": 0.9,
       "week_52_high": 98.48,
       "week_52_low": 78.44,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "HDFCNEXT50",
       "name": "HDFC NIFTY NEXT 50 ETF",
       "ltp": 74.29,
-      "nav": 74.94,
+      "nav": null,
       "change_1d_pct": -0.34,
       "change_30d_pct": 9.91,
       "cagr_1y": 4.88,
@@ -5077,14 +5077,14 @@
       "traded_val_cr": 0.81,
       "week_52_high": 78.07,
       "week_52_low": 59.99,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NV20BEES",
       "name": "Nifty50 Value20 TRI",
       "ltp": 146.0,
-      "nav": 149.51,
+      "nav": null,
       "change_1d_pct": -2.03,
       "change_30d_pct": 10.17,
       "cagr_1y": -4.83,
@@ -5094,14 +5094,14 @@
       "traded_val_cr": 0.74,
       "week_52_high": 160.0,
       "week_52_low": 128.49,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "MULTICAP",
       "name": "Nifty500 Multicap 50:25:25 Index",
       "ltp": 16.87,
-      "nav": 17.09,
+      "nav": null,
       "change_1d_pct": -1.35,
       "change_30d_pct": 10.36,
       "cagr_1y": 1.08,
@@ -5111,14 +5111,14 @@
       "traded_val_cr": 0.74,
       "week_52_high": 17.5,
       "week_52_low": 14.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "QNIFTY",
       "name": "Nifty 50",
       "ltp": 280.0,
-      "nav": 284.47,
+      "nav": null,
       "change_1d_pct": -0.76,
       "change_30d_pct": 12.7,
       "cagr_1y": -90.26,
@@ -5128,14 +5128,14 @@
       "traded_val_cr": 0.63,
       "week_52_high": 291.19,
       "week_52_low": 243.2,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "BSE500IETF",
       "name": "S&P BSE 500 index",
       "ltp": 40.1,
-      "nav": 40.84,
+      "nav": null,
       "change_1d_pct": -1.79,
       "change_30d_pct": 11.08,
       "cagr_1y": -0.2,
@@ -5145,14 +5145,14 @@
       "traded_val_cr": 0.59,
       "week_52_high": 42.05,
       "week_52_low": 34.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SENSEXETF",
       "name": "Mirae Asset S&P BSE Sensex ETF",
       "ltp": 85.14,
-      "nav": 86.75,
+      "nav": null,
       "change_1d_pct": -1.81,
       "change_30d_pct": 13.41,
       "cagr_1y": -3.06,
@@ -5162,14 +5162,14 @@
       "traded_val_cr": 0.54,
       "week_52_high": 88.7,
       "week_52_low": 72.44,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "AONENIFTY",
       "name": "Nifty 50 Index",
       "ltp": 10.45,
-      "nav": 10.67,
+      "nav": null,
       "change_1d_pct": -1.79,
       "change_30d_pct": 11.99,
       "cagr_1y": -2.61,
@@ -5179,14 +5179,14 @@
       "traded_val_cr": 0.34,
       "week_52_high": 12.0,
       "week_52_low": 8.5,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIFTYADD",
       "name": "Nifty 50 Index",
       "ltp": 268.49,
-      "nav": 272.35,
+      "nav": null,
       "change_1d_pct": -1.29,
       "change_30d_pct": 12.63,
       "cagr_1y": -2.19,
@@ -5196,14 +5196,14 @@
       "traded_val_cr": 0.33,
       "week_52_high": 283.32,
       "week_52_low": 232.64,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NEXT50ETF",
       "name": "Nifty Next 50 Index",
       "ltp": 73.25,
-      "nav": 73.87,
+      "nav": null,
       "change_1d_pct": -0.64,
       "change_30d_pct": 9.97,
       "cagr_1y": 7.04,
@@ -5213,14 +5213,14 @@
       "traded_val_cr": 0.31,
       "week_52_high": 78.0,
       "week_52_low": 60.15,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIF100IETF",
       "name": "Nifty 100",
       "ltp": 29.25,
-      "nav": 29.78,
+      "nav": null,
       "change_1d_pct": -1.52,
       "change_30d_pct": 12.0,
       "cagr_1y": -1.52,
@@ -5230,14 +5230,14 @@
       "traded_val_cr": 0.29,
       "week_52_high": 30.88,
       "week_52_low": 23.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SENSEXBETA",
       "name": "SENSEX",
       "ltp": 917.77,
-      "nav": 931.47,
+      "nav": null,
       "change_1d_pct": -1.18,
       "change_30d_pct": 13.25,
       "cagr_1y": -1.95,
@@ -5247,14 +5247,14 @@
       "traded_val_cr": 0.24,
       "week_52_high": 952.91,
       "week_52_low": 785.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NEXT50BETA",
       "name": "Nifty Next 50",
       "ltp": 78.0,
-      "nav": 79.22,
+      "nav": null,
       "change_1d_pct": -1.0,
       "change_30d_pct": 9.98,
       "cagr_1y": 6.95,
@@ -5264,14 +5264,14 @@
       "traded_val_cr": 0.2,
       "week_52_high": 82.51,
       "week_52_low": 64.34,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIFTYBETF",
       "name": "Bajaj Finserv Nifty 50 ETF",
       "ltp": 261.2,
-      "nav": 266.02,
+      "nav": null,
       "change_1d_pct": -1.59,
       "change_30d_pct": 13.0,
       "cagr_1y": -2.35,
@@ -5281,14 +5281,14 @@
       "traded_val_cr": 0.18,
       "week_52_high": 279.99,
       "week_52_low": 227.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "MOM50",
       "name": "Nifty 50",
       "ltp": 266.0,
-      "nav": 270.59,
+      "nav": null,
       "change_1d_pct": -1.32,
       "change_30d_pct": 13.4,
       "cagr_1y": -2.07,
@@ -5298,14 +5298,14 @@
       "traded_val_cr": 0.13,
       "week_52_high": 279.33,
       "week_52_low": 221.55,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NETF",
       "name": "Tata Nifty 50 Exchange Traded Fund",
       "ltp": 278.69,
-      "nav": 281.45,
+      "nav": null,
       "change_1d_pct": -0.57,
       "change_30d_pct": 12.47,
       "cagr_1y": -2.69,
@@ -5315,14 +5315,14 @@
       "traded_val_cr": 0.12,
       "week_52_high": 292.9,
       "week_52_low": 239.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "HDFCNIF100",
       "name": "HDFC NIFTY 100 ETF",
       "ltp": 27.21,
-      "nav": 27.6,
+      "nav": null,
       "change_1d_pct": -1.2,
       "change_30d_pct": 11.88,
       "cagr_1y": -0.91,
@@ -5332,14 +5332,14 @@
       "traded_val_cr": 0.12,
       "week_52_high": 28.57,
       "week_52_low": 23.31,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "HEALTHCARE",
       "name": "Nifty 500 Healthcare Index",
       "ltp": 22.77,
-      "nav": 22.8,
+      "nav": null,
       "change_1d_pct": -0.09,
       "change_30d_pct": 14.67,
       "cagr_1y": 32.97,
@@ -5349,14 +5349,14 @@
       "traded_val_cr": 0.09,
       "week_52_high": 23.95,
       "week_52_low": 17.18,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "GROWWN200",
       "name": "Nifty 200 Index- Total Return Index",
       "ltp": 11.7,
-      "nav": 11.86,
+      "nav": null,
       "change_1d_pct": -1.43,
       "change_30d_pct": 5.02,
       "cagr_1y": -0.59,
@@ -5366,14 +5366,14 @@
       "traded_val_cr": 0.09,
       "week_52_high": 12.14,
       "week_52_low": 9.91,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "ABSLNN50ET",
       "name": "Nifty Next 50",
       "ltp": 76.46,
-      "nav": 77.28,
+      "nav": null,
       "change_1d_pct": -1.05,
       "change_30d_pct": 10.02,
       "cagr_1y": 5.63,
@@ -5383,14 +5383,14 @@
       "traded_val_cr": 0.08,
       "week_52_high": 80.33,
       "week_52_low": 63.02,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "IDFNIFTYET",
       "name": "Nifty 50",
       "ltp": 282.57,
-      "nav": 285.63,
+      "nav": null,
       "change_1d_pct": -0.84,
       "change_30d_pct": 9.46,
       "cagr_1y": -2.06,
@@ -5400,14 +5400,14 @@
       "traded_val_cr": 0.08,
       "week_52_high": 340.8,
       "week_52_low": 244.13,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "MONIFTY100",
       "name": "Nifty 100 Total Return Index",
       "ltp": 26.33,
-      "nav": 26.84,
+      "nav": null,
       "change_1d_pct": -1.75,
       "change_30d_pct": 12.84,
       "cagr_1y": -1.6,
@@ -5417,14 +5417,14 @@
       "traded_val_cr": 0.07,
       "week_52_high": 27.35,
       "week_52_low": 22.38,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SENSEXAXIS",
       "name": "AXIS S&P BSE SENSEX ETF",
       "ltp": 85.98,
-      "nav": 87.23,
+      "nav": null,
       "change_1d_pct": -1.29,
       "change_30d_pct": 13.9,
       "cagr_1y": -2.63,
@@ -5434,14 +5434,14 @@
       "traded_val_cr": 0.05,
       "week_52_high": 91.35,
       "week_52_low": 73.43,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SNXT50BETA",
       "name": "BSE Sensex Next 50",
       "ltp": 95.43,
-      "nav": 95.81,
+      "nav": null,
       "change_1d_pct": -0.13,
       "change_30d_pct": 12.11,
       "cagr_1y": 3.11,
@@ -5451,14 +5451,14 @@
       "traded_val_cr": 0.05,
       "week_52_high": 99.0,
       "week_52_low": 77.11,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NEXT50ADD",
       "name": "Nifty Next 50 TRI",
       "ltp": 72.75,
-      "nav": 73.75,
+      "nav": null,
       "change_1d_pct": -0.99,
       "change_30d_pct": 10.59,
       "cagr_1y": 7.05,
@@ -5468,14 +5468,14 @@
       "traded_val_cr": 0.04,
       "week_52_high": 81.0,
       "week_52_low": 56.25,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "IVZINNIFTY",
       "name": "Nifty 50",
       "ltp": 292.54,
-      "nav": 296.43,
+      "nav": null,
       "change_1d_pct": -1.09,
       "change_30d_pct": 12.65,
       "cagr_1y": -90.2,
@@ -5485,14 +5485,14 @@
       "traded_val_cr": 0.04,
       "week_52_high": 315.0,
       "week_52_low": 250.71,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NIF500BETA",
       "name": "Nifty 500",
       "ltp": 39.44,
-      "nav": 38.78,
+      "nav": null,
       "change_1d_pct": 2.15,
       "change_30d_pct": 13.5,
       "cagr_1y": 0.0,
@@ -5502,14 +5502,14 @@
       "traded_val_cr": 0.03,
       "week_52_high": 40.99,
       "week_52_low": 34.06,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "ESENSEX",
       "name": "BSE Sensex TRI",
       "ltp": 83.33,
-      "nav": 84.61,
+      "nav": null,
       "change_1d_pct": -1.3,
       "change_30d_pct": 13.51,
       "cagr_1y": 0.0,
@@ -5519,14 +5519,14 @@
       "traded_val_cr": 0.03,
       "week_52_high": 88.05,
       "week_52_low": 71.87,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "MONEXT50",
       "name": "Nifty Next 50 Total Return Index",
       "ltp": 72.66,
-      "nav": 73.2,
+      "nav": null,
       "change_1d_pct": 0.04,
       "change_30d_pct": 9.89,
       "cagr_1y": 5.46,
@@ -5536,14 +5536,14 @@
       "traded_val_cr": 0.03,
       "week_52_high": 75.89,
       "week_52_low": 59.43,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SENSEXADD",
       "name": "DSP S&P BSE Sensex ETF",
       "ltp": 85.63,
-      "nav": 86.7,
+      "nav": null,
       "change_1d_pct": -1.8,
       "change_30d_pct": 13.04,
       "cagr_1y": -2.38,
@@ -5553,31 +5553,31 @@
       "traded_val_cr": 0.03,
       "week_52_high": 88.2,
       "week_52_low": 73.27,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "SNXT30BEES",
       "name": "BSE Sensex Next 30 Index",
       "ltp": 42.64,
-      "nav": 42.82,
+      "nav": null,
       "change_1d_pct": -0.61,
       "change_30d_pct": 10.41,
-      "cagr_1y": 6.06,
+      "cagr_1y": 6.86,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 4647,
       "traded_val_cr": 0.02,
       "week_52_high": 44.56,
       "week_52_low": 36.83,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "BSLSENETFG",
       "name": "BSE SENSEX Index",
       "ltp": 83.76,
-      "nav": 84.77,
+      "nav": null,
       "change_1d_pct": -0.64,
       "change_30d_pct": 13.75,
       "cagr_1y": -2.85,
@@ -5587,14 +5587,14 @@
       "traded_val_cr": 0.02,
       "week_52_high": 87.82,
       "week_52_low": 70.32,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "LICNFNHGP",
       "name": "Nifty 100",
       "ltp": 287.47,
-      "nav": 292.66,
+      "nav": null,
       "change_1d_pct": -0.9,
       "change_30d_pct": 10.57,
       "cagr_1y": -0.65,
@@ -5604,14 +5604,14 @@
       "traded_val_cr": 0.02,
       "week_52_high": 296.41,
       "week_52_low": 248.02,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "LICNETFN50",
       "name": "Nifty 50",
       "ltp": 283.93,
-      "nav": 289.98,
+      "nav": null,
       "change_1d_pct": -1.41,
       "change_30d_pct": 12.8,
       "cagr_1y": -2.22,
@@ -5621,14 +5621,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 295.0,
       "week_52_low": 247.43,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "ENIFTY",
       "name": "Nifty 50 TRI",
       "ltp": 25.75,
-      "nav": 26.1,
+      "nav": null,
       "change_1d_pct": -1.08,
       "change_30d_pct": 12.74,
       "cagr_1y": 0.0,
@@ -5638,14 +5638,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 27.99,
       "week_52_low": 22.14,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "NEXT30ADD",
       "name": "BSE SENSEX Next 30 Index",
       "ltp": 42.7,
-      "nav": 42.94,
+      "nav": null,
       "change_1d_pct": -0.84,
       "change_30d_pct": 9.57,
       "cagr_1y": 5.45,
@@ -5655,14 +5655,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 46.7,
       "week_52_low": 36.98,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "LICNETFSEN",
       "name": "SENSEX",
       "ltp": 943.0,
-      "nav": 949.32,
+      "nav": null,
       "change_1d_pct": -0.33,
       "change_30d_pct": 14.69,
       "cagr_1y": -1.27,
@@ -5672,14 +5672,14 @@
       "traded_val_cr": 0.01,
       "week_52_high": 970.82,
       "week_52_low": 791.33,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "IVZSENSEX",
       "name": "BSE Sensex TRI",
       "ltp": 82.97,
-      "nav": 84.01,
+      "nav": null,
       "change_1d_pct": -0.88,
       "change_30d_pct": 13.95,
       "cagr_1y": 0.0,
@@ -5689,14 +5689,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 84.83,
       "week_52_low": 70.06,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Nifty 50 & Sensex",
       "symbol": "ENEXT50",
       "name": "Nifty Next 50 Total Return Index",
       "ltp": 72.12,
-      "nav": 73.16,
+      "nav": null,
       "change_1d_pct": -0.92,
       "change_30d_pct": 10.38,
       "cagr_1y": 0.0,
@@ -5706,14 +5706,14 @@
       "traded_val_cr": 0.0,
       "week_52_high": 76.0,
       "week_52_low": 64.66,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVERBEES",
       "name": "Domestic price of Silver- based on LBMA Silver daily spot fixing price",
       "ltp": 146.51,
-      "nav": 145.62,
+      "nav": null,
       "change_1d_pct": -0.18,
       "change_30d_pct": -20.3,
       "cagr_1y": -6.64,
@@ -5723,14 +5723,14 @@
       "traded_val_cr": 1536.35,
       "week_52_high": 360.0,
       "week_52_low": 140.25,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVERIETF",
       "name": "Domestic Price of Silver",
       "ltp": 151.99,
-      "nav": 151.69,
+      "nav": null,
       "change_1d_pct": -0.28,
       "change_30d_pct": -20.68,
       "cagr_1y": -6.86,
@@ -5740,14 +5740,14 @@
       "traded_val_cr": 340.61,
       "week_52_high": 373.5,
       "week_52_low": 146.34,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "TATSILV",
       "name": "Tata Silver Exchange Traded Fund",
       "ltp": 14.87,
-      "nav": 14.88,
+      "nav": null,
       "change_1d_pct": 0.13,
       "change_30d_pct": -20.28,
       "cagr_1y": -6.53,
@@ -5757,14 +5757,14 @@
       "traded_val_cr": 112.89,
       "week_52_high": 35.1,
       "week_52_low": 14.32,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "HDFCSILVER",
       "name": "HDFC Silver ETF",
       "ltp": 145.7,
-      "nav": 145.92,
+      "nav": null,
       "change_1d_pct": 0.24,
       "change_30d_pct": -20.44,
       "cagr_1y": -7.19,
@@ -5774,14 +5774,14 @@
       "traded_val_cr": 97.81,
       "week_52_high": 359.0,
       "week_52_low": 140.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVER",
       "name": "Physical price of Silver",
       "ltp": 152.01,
-      "nav": 152.02,
+      "nav": null,
       "change_1d_pct": -0.48,
       "change_30d_pct": -20.45,
       "cagr_1y": -6.73,
@@ -5791,14 +5791,14 @@
       "traded_val_cr": 63.74,
       "week_52_high": 371.89,
       "week_52_low": 146.74,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SBISILVER",
       "name": "SBI SILVER ETF",
       "ltp": 148.99,
-      "nav": 149.67,
+      "nav": null,
       "change_1d_pct": -0.11,
       "change_30d_pct": -20.61,
       "cagr_1y": -6.95,
@@ -5808,14 +5808,14 @@
       "traded_val_cr": 45.64,
       "week_52_high": 362.0,
       "week_52_low": 142.64,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVERCASE",
       "name": "Commodity-Silver",
       "ltp": 15.34,
-      "nav": 15.35,
+      "nav": null,
       "change_1d_pct": -0.07,
       "change_30d_pct": -20.83,
       "cagr_1y": -7.54,
@@ -5825,14 +5825,14 @@
       "traded_val_cr": 43.35,
       "week_52_high": 38.01,
       "week_52_low": 14.83,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVER1",
       "name": "Kotak Silver ETF",
       "ltp": 14.78,
-      "nav": 14.77,
+      "nav": null,
       "change_1d_pct": 0.2,
       "change_30d_pct": -20.59,
       "cagr_1y": -90.7,
@@ -5842,14 +5842,14 @@
       "traded_val_cr": 36.23,
       "week_52_high": 38.8,
       "week_52_low": 14.23,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVERADD",
       "name": "DSP Silver ETF",
       "ltp": 14.75,
-      "nav": 14.59,
+      "nav": null,
       "change_1d_pct": 0.82,
       "change_30d_pct": -20.57,
       "cagr_1y": -7.18,
@@ -5859,14 +5859,14 @@
       "traded_val_cr": 22.05,
       "week_52_high": 39.0,
       "week_52_low": 14.04,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVERAXIS",
       "name": "Axis Silver ETF",
       "ltp": 151.8,
-      "nav": 151.91,
+      "nav": null,
       "change_1d_pct": -0.06,
       "change_30d_pct": -20.52,
       "cagr_1y": -6.61,
@@ -5876,14 +5876,14 @@
       "traded_val_cr": 20.66,
       "week_52_high": 390.01,
       "week_52_low": 146.37,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVERBETA",
       "name": "UTI Silver Exchange Traded Fund (UTI Silver ETF)",
       "ltp": 146.5,
-      "nav": 147.14,
+      "nav": null,
       "change_1d_pct": -0.73,
       "change_30d_pct": -20.42,
       "cagr_1y": -6.88,
@@ -5893,14 +5893,14 @@
       "traded_val_cr": 16.12,
       "week_52_high": 379.66,
       "week_52_low": 141.52,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVERAG",
       "name": "Mirae Asset Silver ETF",
       "ltp": 148.12,
-      "nav": 148.72,
+      "nav": null,
       "change_1d_pct": -0.86,
       "change_30d_pct": -20.34,
       "cagr_1y": -6.62,
@@ -5910,14 +5910,14 @@
       "traded_val_cr": 13.08,
       "week_52_high": 380.0,
       "week_52_low": 143.13,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "GROWWSLVR",
       "name": "Commodity-Silver",
       "ltp": 14.93,
-      "nav": 14.97,
+      "nav": null,
       "change_1d_pct": -1.26,
       "change_30d_pct": -20.42,
       "cagr_1y": -90.73,
@@ -5927,14 +5927,14 @@
       "traded_val_cr": 12.7,
       "week_52_high": 36.3,
       "week_52_low": 14.4,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "IVZSILVER",
       "name": "Silver",
       "ltp": 15.7,
-      "nav": 15.38,
+      "nav": null,
       "change_1d_pct": 1.16,
       "change_30d_pct": 0.0,
       "cagr_1y": 0.0,
@@ -5944,14 +5944,14 @@
       "traded_val_cr": 7.75,
       "week_52_high": 16.98,
       "week_52_low": 14.83,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVERBND",
       "name": "Commodity - Silver",
       "ltp": 155.4,
-      "nav": 154.23,
+      "nav": null,
       "change_1d_pct": -0.1,
       "change_30d_pct": -19.76,
       "cagr_1y": -45.21,
@@ -5961,14 +5961,14 @@
       "traded_val_cr": 2.73,
       "week_52_high": 389.0,
       "week_52_low": 148.96,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "AONESILVER",
       "name": "Domestic price of Silver",
       "ltp": 5.9,
-      "nav": 5.87,
+      "nav": null,
       "change_1d_pct": 0.17,
       "change_30d_pct": -20.7,
       "cagr_1y": 0.0,
@@ -5978,31 +5978,31 @@
       "traded_val_cr": 1.3,
       "week_52_high": 12.0,
       "week_52_low": 5.73,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "MOSILVER",
       "name": "Domestic Price of Physical Silver",
       "ltp": 151.99,
-      "nav": 151.29,
+      "nav": null,
       "change_1d_pct": 0.49,
       "change_30d_pct": -20.13,
-      "cagr_1y": 1.41,
+      "cagr_1y": -0.08,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 77065,
       "traded_val_cr": 1.17,
       "week_52_high": 385.0,
       "week_52_low": 146.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "ESILVER",
       "name": "Edelweiss Silver ETF",
       "ltp": 152.86,
-      "nav": 152.62,
+      "nav": null,
       "change_1d_pct": 0.09,
       "change_30d_pct": -20.35,
       "cagr_1y": -6.62,
@@ -6012,31 +6012,31 @@
       "traded_val_cr": 1.07,
       "week_52_high": 375.0,
       "week_52_low": 148.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVER360",
       "name": "Commodity-Silver",
       "ltp": 150.0,
-      "nav": 149.7,
+      "nav": null,
       "change_1d_pct": -0.15,
       "change_30d_pct": -20.89,
-      "cagr_1y": 0.77,
+      "cagr_1y": -0.72,
       "cagr_3y": null,
       "cagr_5y": null,
       "volume": 49754,
       "traded_val_cr": 0.74,
       "week_52_high": 358.0,
       "week_52_low": 144.05,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - Silver",
       "symbol": "SILVER001",
       "name": "Commodity - Silver",
       "ltp": 15.55,
-      "nav": 15.47,
+      "nav": null,
       "change_1d_pct": -0.06,
       "change_30d_pct": -20.5,
       "cagr_1y": 0.0,
@@ -6046,14 +6046,14 @@
       "traded_val_cr": 0.11,
       "week_52_high": 28.0,
       "week_52_low": 14.96,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - US & International",
       "symbol": "MON100",
       "name": "Nasdaq100",
       "ltp": 298.21,
-      "nav": 226.67,
+      "nav": null,
       "change_1d_pct": -0.23,
       "change_30d_pct": 3.03,
       "cagr_1y": 28.2,
@@ -6063,14 +6063,14 @@
       "traded_val_cr": 30.27,
       "week_52_high": 354.9,
       "week_52_low": 213.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - US & International",
       "symbol": "MAFANG",
       "name": "NYSE FANG+ Total Return Index",
       "ltp": 212.69,
-      "nav": 139.56,
+      "nav": null,
       "change_1d_pct": -3.22,
       "change_30d_pct": -12.97,
       "cagr_1y": 22.06,
@@ -6080,14 +6080,14 @@
       "traded_val_cr": 29.7,
       "week_52_high": 307.49,
       "week_52_low": 149.74,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - US & International",
       "symbol": "MASPTOP50",
       "name": "S&P 500 Top 50 Total Return Index",
       "ltp": 88.0,
-      "nav": 57.39,
+      "nav": null,
       "change_1d_pct": -4.11,
       "change_30d_pct": -9.59,
       "cagr_1y": 24.35,
@@ -6097,14 +6097,14 @@
       "traded_val_cr": 10.83,
       "week_52_high": 148.9,
       "week_52_low": 65.0,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - US & International",
       "symbol": "MONQ50",
       "name": "Nasdaq Q-50 Total Return Index",
       "ltp": 217.31,
-      "nav": 102.95,
+      "nav": null,
       "change_1d_pct": 0.27,
       "change_30d_pct": -1.54,
       "cagr_1y": 118.13,
@@ -6114,14 +6114,14 @@
       "traded_val_cr": 5.69,
       "week_52_high": 471.99,
       "week_52_low": 92.01,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - US & International",
       "symbol": "HNGSNGBEES",
       "name": "Hang Seng Index",
       "ltp": 421.81,
-      "nav": 395.25,
+      "nav": null,
       "change_1d_pct": -0.42,
       "change_30d_pct": -1.02,
       "cagr_1y": -18.99,
@@ -6131,14 +6131,14 @@
       "traded_val_cr": 3.72,
       "week_52_high": 574.75,
       "week_52_low": 411.65,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     },
     {
       "tab": "ETF - US & International",
       "symbol": "MAHKTECH",
       "name": "Hang Seng TECH Total Return Index",
       "ltp": 20.81,
-      "nav": 13.97,
+      "nav": null,
       "change_1d_pct": 0.05,
       "change_30d_pct": 0.43,
       "cagr_1y": -19.72,
@@ -6148,7 +6148,7 @@
       "traded_val_cr": 0.99,
       "week_52_high": 27.86,
       "week_52_low": 20.11,
-      "nav_date": "22-Nov-2026"
+      "nav_date": ""
     }
   ]
 }
